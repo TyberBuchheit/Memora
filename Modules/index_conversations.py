@@ -78,10 +78,14 @@ def index_conversations():
         context_path = os.path.join(conv_dir, "context.json")
         if not os.path.isfile(context_path):
             continue
-        with open(context_path, "r", encoding="utf-8", errors="replace") as f:
+        with open(context_path, "r", encoding="utf-8-sig") as f:
             data = json.load(f)
-        conv_id = data.get("conversation_id", folder)
-        messages = data.get("conversation", [])
+        if isinstance(data, list):
+            conv_id = folder
+            messages = data
+        else:
+            conv_id = data.get("conversation_id", folder)
+            messages = data.get("conversation", [])
         if messages:
             conversations.append((conv_id, messages))
 
