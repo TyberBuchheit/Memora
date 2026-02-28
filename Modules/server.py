@@ -17,7 +17,6 @@ DEFAULT_USER = "user" # For now, we're only doing one user, but it's as easy as 
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    # app.state.embedder = SentenceTransformer(MODEL_NAME, cache_folder="models/") # Replaced with cohere
     app.state.qdrant = QdrantClient(path="users")
     yield
 
