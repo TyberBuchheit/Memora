@@ -13,7 +13,7 @@ import org.commonmark.ext.gfm.tables.TablesExtension;
 import java.util.Arrays;
 import java.util.List;
 
-public class Response extends JEditorPane {
+public class Response extends JEditorPane implements Cloneable{
 
     public void createMarkdownComponent(String markdown) {
         List<Extension> extensions = Arrays.asList(TablesExtension.create());
@@ -59,25 +59,36 @@ public class Response extends JEditorPane {
 
     }
 
-    private int x = 1, y;
+    private int y;
+    private static final int x = 1;
 
     public Response(String response) {
         super();
         createMarkdownComponent(response);
-
+  
         // keep width within bounds and update layout
         int width = getPreferredSize().width;
         int height = getPreferredSize().height;
-        setBounds(x, Bubble.statY, width, height);
+        setBounds(x, Panel.pans.get(Panel.panIndex).statY, width, height);
         setBackground(new Color(0, 0, 0, 0));
-        y = Bubble.statY;
-        Bubble.statY += height;
+        y = Panel.pans.get(Panel.panIndex).statY;
+        Panel.pans.get(Panel.panIndex).statY += height;
 
     }
+    public Response(Response r) {
+        super();
+        createMarkdownComponent(r.getText());
+        int width = getPreferredSize().width;
+        int height = getPreferredSize().height;
+        setBounds(x, Panel.pans.get(Panel.panIndex).statY, width, height);
+        setBackground(new Color(0, 0, 0, 0));
+        y = r.y;
+        //Panel.pans.get(Panel.panIndex).statY += height;
 
+    }
     public void update() {
 
-        setLocation(x, y + Bubble.scrollY);
+        setLocation(x, y + Panel.pans.get(Panel.panIndex).scrollY);
 
     }
 

@@ -39,11 +39,11 @@ public class ServerClient {
         System.out.println("Received JSON: " + jsonString);
         clientInfo = mapper.readValue(jsonString, ClientInfo.class);
 
-        String p = "memora\\Users\\user\\Conversations\\" + clientInfo.getID();
-        Path path = Paths.get(p);
-        if (java.nio.file.Files.exists(path)) {
-            loadContext(p);
-        }
+        // String p = "memora\\Users\\user\\Conversations\\" + clientInfo.getID();
+        // Path path = Paths.get(p);
+        // if (java.nio.file.Files.exists(path)) {
+        //     loadContext(p);
+        // }
         receive();
 
     }
@@ -56,41 +56,43 @@ public class ServerClient {
         }
     }
 
-    public void loadContext(String p) throws IOException {
-        Scanner scanner = new Scanner(new FileReader(p + "\\context.json"));
-        StringBuilder sb = new StringBuilder();
-        while (scanner.hasNextLine()) {
-            sb.append(scanner.nextLine());
-        }
-        String jsonString = sb.toString();
-        if (jsonString.length() > 0)
-            context = mapper.readValue(jsonString, new TypeReference<ArrayList<HashMap<String, String>>>() {
-            });
-        scanner.close();
-        Packet p1 = new Packet("context", clientInfo.getID(), new HashMap<>() {
-            {
-                put("context", jsonString);
-            }
-        });
-        sendToClient(mapper.writeValueAsString(p1));
-    }
+    // public void loadContext(String p) throws IOException {
+    //     Scanner scanner = new Scanner(new FileReader(p + "\\context.json"));
+    //     StringBuilder sb = new StringBuilder();
+    //     while (scanner.hasNextLine()) {
+    //         sb.append(scanner.nextLine());
+    //     }
+    //     String jsonString = sb.toString();
+    //     if (jsonString.length() > 0)
+    //         context = mapper.readValue(jsonString, new TypeReference<ArrayList<HashMap<String, String>>>() {
+    //         });
+    //     scanner.close();
 
-    public void sendToClient(String message) {
-        try {
-            for (ServerClient sc : ServerMain.clients) {
+    //     Packet p1 = new Packet("context", clientInfo.getID(), new HashMap<>() {
+    //         {
+    //             put("context", jsonString);
+    //         }
+    //     });
+    //     sendToClient(mapper.writeValueAsString(p1));
 
-                if (sc.clientInfo.getClientType() == 1) {
-                    sc.sendMessage(message);
-                } else {
+    // }
 
-                }
+    // public void sendToClient(String message) {
+    //     try {
+    //         for (ServerClient sc : ServerMain.clients) {
 
-            }
+    //             if (sc.clientInfo.getClientType() == 1) {
+    //                 sc.sendMessage(message);
+    //             } else {
 
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
+    //             }
+
+    //         }
+
+    //     } catch (Exception e) {
+    //         e.printStackTrace();
+    //     }
+    // }
 
     public void appendToFile(String message, String UUID, boolean context) throws IOException {
 

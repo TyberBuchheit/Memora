@@ -27,6 +27,9 @@ public class Client {
     private static final int PORT = 8087;
     private static String chatID = "1234";
 
+    public static String cur_conv_id = "1234";
+
+
     public Client() throws UnknownHostException, IOException {
         socket = new Socket(IPADDRESS, PORT);
 
@@ -40,10 +43,10 @@ public class Client {
 
     }
 
-    public void sendPrompt(String prompt) throws JsonProcessingException {
-        Packet p = new Packet("prompt", chatID, new HashMap<>() {
+    public void sendPrompt(String prompt, String cur_id) throws JsonProcessingException {
+        Packet p = new Packet("prompt", cur_id, new HashMap<>() {
             {
-                put("conv_id", chatID);
+                put("conv_id", cur_id);
                 put("prompt", prompt);
 
             }
@@ -64,24 +67,24 @@ public class Client {
 
     }
 
-    public void loadContext(String context) throws JsonProcessingException {
-        ArrayList<HashMap<String, String>> contextList = mapper.readValue(context, new com.fasterxml.jackson.core.type.TypeReference<ArrayList<HashMap<String, String>>>() {});
+    // public void loadContext(String context) throws JsonProcessingException {
+    //     ArrayList<HashMap<String, String>> contextList = mapper.readValue(context, new com.fasterxml.jackson.core.type.TypeReference<ArrayList<HashMap<String, String>>>() {});
     
-        for(HashMap<String, String> entry : contextList) {
-            String role = entry.get("role");
-            String content = entry.get("context");
+    //     for(HashMap<String, String> entry : contextList) {
+    //         String role = entry.get("role");
+    //         String content = entry.get("context");
 
-            if(role.equals("user")) {
-                    Bubble bub = new Bubble(content);
-                        Panel.bubbles.add(bub);
-                        Panel.pan.add(bub);
-            } else if(role.equals("assistant")) {
-                Panel.drawResponse(content);
-            }
-            System.out.println("loading context entry with content");
-        }
+    //         if(role.equals("user")) {
+    //                 Bubble bub = new Bubble(content);
+    //                     Panel.bubbles.add(bub);
+    //                     Panel.pan.add(bub);
+    //         } else if(role.equals("assistant")) {
+    //             Panel.drawResponse(content);
+    //         }
+    //         System.out.println("loading context entry with content");
+    //     }
 
-    }
+    // }
 
     public void receive() {
 
@@ -103,10 +106,10 @@ public class Client {
                             String response = (String) pack.getData().get("response");
                             Panel.drawResponse(response);
                             break;
-                        case "context":
-                            String context = (String) pack.getData().get("context");
-                            loadContext(context);
-                            break;
+                        // case "context":
+                        //     String context = (String) pack.getData().get("context");
+                        //     loadContext(context);
+                        //     break;
                         default:
                             System.out.println("Unknown packet type: " + pack.getType());
                     }

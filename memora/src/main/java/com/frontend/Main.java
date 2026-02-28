@@ -1,10 +1,13 @@
 package com.frontend;
 
+import java.awt.BorderLayout;
+import java.awt.CardLayout;
 import java.awt.Dimension;
 import java.awt.GraphicsDevice;
 import java.awt.GraphicsEnvironment;
 import java.awt.Toolkit;
 
+import javax.swing.Box;
 import javax.swing.JFrame;
 import javax.swing.SwingUtilities;
 
@@ -14,7 +17,7 @@ public class Main {
 
     public static Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
 
-    private static JFrame frame = new JFrame("Memora");
+    public static JFrame frame = new JFrame("Memora");
     private static Client c;
 
     static {
@@ -39,8 +42,7 @@ public class Main {
             e.printStackTrace();
         }
         SwingUtilities.invokeLater(() -> {
-            Panel panel = new Panel(c);
-            frame.add(panel);
+            frame.add(new Panel(c));
             frame.setVisible(true);
             fullscreen();
         });

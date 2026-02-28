@@ -12,7 +12,7 @@ public class SimpleButton extends MouseAdapter {
     private boolean hover;
     private Runnable target;
     private String text;
-    private Font f = new Font("Arial", Font.PLAIN, 25);
+    private Font f = new Font("Arial", Font.PLAIN, 35);
 
 
     public void setText(String text) {
@@ -25,7 +25,7 @@ public class SimpleButton extends MouseAdapter {
     }
 
     public void setBounds(int x, int y, int width, int height) {
-        bounds = new Rectangle(x, y, width, height);
+        bounds = new Rectangle(x, y-20, width, height);
     }
 
     public void draw(Graphics2D g2) {
@@ -35,8 +35,8 @@ public class SimpleButton extends MouseAdapter {
         } else {
             g2.setColor(java.awt.Color.LIGHT_GRAY);
         }
-        g2.drawRect(bounds.x, bounds.y, bounds.width, bounds.height);
-        g2.drawString(text, bounds.x + 10, bounds.y + 20);
+        //g2.drawRect(bounds.x, bounds.y, bounds.width, bounds.height);
+        g2.drawString(text, bounds.x + 20, bounds.y + 30);
 
     }
 
