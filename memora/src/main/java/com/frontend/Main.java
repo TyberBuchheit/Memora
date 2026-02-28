@@ -4,8 +4,6 @@ import java.awt.Dimension;
 import java.awt.GraphicsDevice;
 import java.awt.GraphicsEnvironment;
 import java.awt.Toolkit;
-import java.io.IOException;
-import java.net.UnknownHostException;
 
 import javax.swing.JFrame;
 import javax.swing.SwingUtilities;
@@ -23,6 +21,7 @@ public class Main {
         frame.setSize((int) screenSize.getWidth(), (int) screenSize.getHeight());
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setResizable(false);
+        frame.setLayout(null);
     }
 
     private static void fullscreen() {

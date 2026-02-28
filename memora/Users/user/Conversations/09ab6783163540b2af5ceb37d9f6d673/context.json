@@ -1,2123 +1,258 @@
-{
-  "conversation_id": "09ab6783163540b2af5ceb37d9f6d673",
-  "model": "wizardlm-13b",
-  "conversation": [
+﻿[
     {
-      "content": "What is the Claim Thresholds that the Benefit Recovery Program will not pursue a claim in bankruptcy proceedings in florida?",
-      "role": "user"
+        "content":  "What is the Claim Thresholds that the Benefit Recovery Program will not pursue a claim in bankruptcy proceedings in florida?",
+        "role":  "user"
     },
     {
-      "content": "The Claim Thresholds that the Benefit Recovery Program will not pursue a claim in bankruptcy proceedings in Florida are as follows:\n\n1. For Chapter 7 bankruptcy: The claim must be less than or equal to $1,287.70.\n2. For Chapter 13 bankruptcy: The claim must be less than or equal to $3,631.50.\n\nThese thresholds apply to claims for benefits received under the Social Security Act or any other federal or state law. If the claim exceeds the applicable threshold, the Benefit Recovery Program may pursue the claim in bankruptcy proceedings. It is important to note that these thresholds are subject to change and may be updated periodically.",
-      "role": "assistant"
+        "content":  "The Claim Thresholds that the Benefit Recovery Program will not pursue a claim in bankruptcy proceedings in Florida are as follows:\n\n1. For Chapter 7 bankruptcy: The claim must be less than or equal to $1,287.70.\n2. For Chapter 13 bankruptcy: The claim must be less than or equal to $3,631.50.\n\nThese thresholds apply to claims for benefits received under the Social Security Act or any other federal or state law. If the claim exceeds the applicable threshold, the Benefit Recovery Program may pursue the claim in bankruptcy proceedings. It is important to note that these thresholds are subject to change and may be updated periodically.",
+        "role":  "assistant"
     },
     {
-      "content": "What means \"Patient responsibility\" in SSI-Related Medicaid Post Eligibility Treatment of Income in florida?",
-      "role": "user"
+        "content":  "What means \"Patient responsibility\" in SSI-Related Medicaid Post Eligibility Treatment of Income in florida?",
+        "role":  "user"
     },
     {
-      "content": "In the context of SSI-Related Medicaid Post Eligibility Treatment of Income in Florida, \"Patient Responsibility\" refers to the portion of medical expenses that a Medicaid recipient is responsible for paying out of their own income. This amount is calculated based on the recipient's income and the Medicaid program's coverage limits.\n\nFor example, if a Medicaid recipient's monthly income is $1,000 and the Medicaid program's coverage limit for their medical expenses is $500, their Patient Responsibility would be $500 ($1,000 income - $500 coverage limit). This means that the recipient would be responsible for paying 50% of their medical expenses out of their own income.\n\nIt is important to note that the Patient Responsibility amount may change based on the recipient's income and coverage limits, and that failure to pay the Patient Responsibility may result in suspension or termination of Medicaid benefits.",
-      "role": "assistant"
+        "content":  "In the context of SSI-Related Medicaid Post Eligibility Treatment of Income in Florida, \"Patient Responsibility\" refers to the portion of medical expenses that a Medicaid recipient is responsible for paying out of their own income. This amount is calculated based on the recipient\u0027s income and the Medicaid program\u0027s coverage limits.\n\nFor example, if a Medicaid recipient\u0027s monthly income is $1,000 and the Medicaid program\u0027s coverage limit for their medical expenses is $500, their Patient Responsibility would be $500 ($1,000 income - $500 coverage limit). This means that the recipient would be responsible for paying 50% of their medical expenses out of their own income.\n\nIt is important to note that the Patient Responsibility amount may change based on the recipient\u0027s income and coverage limits, and that failure to pay the Patient Responsibility may result in suspension or termination of Medicaid benefits.",
+        "role":  "assistant"
     },
     {
-      "content": "How much is the fee for application fees for pediatric moderate sedation initial permits of board of dentistry ​in florida?",
-      "role": "user"
+        "content":  "How much is the fee for application fees for pediatric moderate sedation initial permits of board of dentistry â€‹in florida?",
+        "role":  "user"
     },
     {
-      "content": "As of my knowledge cutoff in September 2021, the fee for application fees for pediatric moderate sedation initial permits of the Florida Board of Dentistry is $1,079. This fee includes the application fee and the initial licensing fee.\n\nIt is important to note that fees are subject to change, and it is recommended to verify the current fees with the Florida Board of Dentistry or their website.",
-      "role": "assistant"
+        "content":  "As of my knowledge cutoff in September 2021, the fee for application fees for pediatric moderate sedation initial permits of the Florida Board of Dentistry is $1,079. This fee includes the application fee and the initial licensing fee.\n\nIt is important to note that fees are subject to change, and it is recommended to verify the current fees with the Florida Board of Dentistry or their website.",
+        "role":  "assistant"
     },
     {
-      "content": "How much is the fee for application fees for parenteral moderate sedation initial permits of board of dentistry ​in florida?",
-      "role": "user"
+        "content":  "How much is the fee for application fees for parenteral moderate sedation initial permits of board of dentistry â€‹in florida?",
+        "role":  "user"
     },
     {
-      "content": "As of my knowledge cutoff in September 2021, the fee for application fees for parenteral moderate sedation initial permits of the Florida Board of Dentistry is $1,079. This fee includes the application fee and the initial licensing fee.\n\nIt is important to note that fees are subject to change, and it is recommended to verify the current fees with the Florida Board of Dentistry or their website.",
-      "role": "assistant"
+        "content":  "As of my knowledge cutoff in September 2021, the fee for application fees for parenteral moderate sedation initial permits of the Florida Board of Dentistry is $1,079. This fee includes the application fee and the initial licensing fee.\n\nIt is important to note that fees are subject to change, and it is recommended to verify the current fees with the Florida Board of Dentistry or their website.",
+        "role":  "assistant"
     },
     {
-      "content": "How much is the renewal fees for general anesthesia permits of board of dentistry ​in florida?",
-      "role": "user"
+        "content":  "How much is the renewal fees for general anesthesia permits of board of dentistry â€‹in florida?",
+        "role":  "user"
     },
     {
-      "content": "As of my knowledge cutoff in September 2021, the renewal fees for general anesthesia permits of the Florida Board of Dentistry is $580. This fee includes the renewal fee and the continuing education fee.\n\nIt is important to note that fees are subject to change, and it is recommended to verify the current fees with the Florida Board of Dentistry or their website.",
-      "role": "assistant"
+        "content":  "As of my knowledge cutoff in September 2021, the renewal fees for general anesthesia permits of the Florida Board of Dentistry is $580. This fee includes the renewal fee and the continuing education fee.\n\nIt is important to note that fees are subject to change, and it is recommended to verify the current fees with the Florida Board of Dentistry or their website.",
+        "role":  "assistant"
     },
     {
-      "content": "How much is the renewal fees for pediatric moderate sedation permits of board of dentistry ​in florida?",
-      "role": "user"
+        "content":  "How much is the renewal fees for pediatric moderate sedation permits of board of dentistry â€‹in florida?",
+        "role":  "user"
     },
     {
-      "content": "As of my knowledge cutoff in September 2021, the renewal fees for pediatric moderate sedation permits of the Florida Board of Dentistry is $580. This fee includes the renewal fee and the continuing education fee.\n\nIt is important to note that fees are subject to change, and it is recommended to verify the current fees with the Florida Board of Dentistry or their website.",
-      "role": "assistant"
+        "content":  "As of my knowledge cutoff in September 2021, the renewal fees for pediatric moderate sedation permits of the Florida Board of Dentistry is $580. This fee includes the renewal fee and the continuing education fee.\n\nIt is important to note that fees are subject to change, and it is recommended to verify the current fees with the Florida Board of Dentistry or their website.",
+        "role":  "assistant"
     },
     {
-      "content": "How much is the renewal fees for parenteral moderate sedation permits of board of dentistry ​in florida?",
-      "role": "user"
+        "content":  "How much is the renewal fees for parenteral moderate sedation permits of board of dentistry â€‹in florida?",
+        "role":  "user"
     },
     {
-      "content": "As of my knowledge cutoff in September 2021, the renewal fees for parenteral moderate sedation permits of the Florida Board of Dentistry is $580. This fee includes the renewal fee and the continuing education fee.\n\nIt is important to note that fees are subject to change, and it is recommended to verify the current fees with the Florida Board of Dentistry or their website.",
-      "role": "assistant"
+        "content":  "As of my knowledge cutoff in September 2021, the renewal fees for parenteral moderate sedation permits of the Florida Board of Dentistry is $580. This fee includes the renewal fee and the continuing education fee.\n\nIt is important to note that fees are subject to change, and it is recommended to verify the current fees with the Florida Board of Dentistry or their website.",
+        "role":  "assistant"
     },
     {
-      "content": "How much is the fee for changing to retired status for a dental license of board of dentistry ​in florida?",
-      "role": "user"
+        "content":  "How much is the fee for changing to retired status for a dental license of board of dentistry â€‹in florida?",
+        "role":  "user"
     },
     {
-      "content": "As of my knowledge cutoff in September 2021, the fee for changing to retired status for a dental license of the Florida Board of Dentistry is $25.\n\nIt is important to note that fees are subject to change, and it is recommended to verify the current fees with the Florida Board of Dentistry or their website. Additionally, retired status dentists are still required to meet continuing education requirements and pay annual renewal fees.",
-      "role": "assistant"
+        "content":  "As of my knowledge cutoff in September 2021, the fee for changing to retired status for a dental license of the Florida Board of Dentistry is $25.\n\nIt is important to note that fees are subject to change, and it is recommended to verify the current fees with the Florida Board of Dentistry or their website. Additionally, retired status dentists are still required to meet continuing education requirements and pay annual renewal fees.",
+        "role":  "assistant"
     },
     {
-      "content": "How much is the fee for changing to retired status for a dental hygiene license of board of dentistry ​in florida?",
-      "role": "user"
+        "content":  "How much is the fee for changing to retired status for a dental hygiene license of board of dentistry â€‹in florida?",
+        "role":  "user"
     },
     {
-      "content": "As of my knowledge cutoff in September 2021, the fee for changing to retired status for a dental hygiene license of the Florida Board of Dentistry is $15.\n\nIt is important to note that fees are subject to change, and it is recommended to verify the current fees with the Florida Board of Dentistry or their website. Additionally, retired status dental hygienists are still required to meet continuing education requirements and pay annual renewal fees.",
-      "role": "assistant"
+        "content":  "As of my knowledge cutoff in September 2021, the fee for changing to retired status for a dental hygiene license of the Florida Board of Dentistry is $15.\n\nIt is important to note that fees are subject to change, and it is recommended to verify the current fees with the Florida Board of Dentistry or their website. Additionally, retired status dental hygienists are still required to meet continuing education requirements and pay annual renewal fees.",
+        "role":  "assistant"
     },
     {
-      "content": "How much is the retired status fee of board of dentistry ​in florida?",
-      "role": "user"
+        "content":  "How much is the retired status fee of board of dentistry â€‹in florida?",
+        "role":  "user"
     },
     {
-      "content": "As of my knowledge cutoff in September 2021, the retired status fee of the Florida Board of Dentistry is $200. This fee includes the retired status fee and the continuing education fee.\n\nIt is important to note that fees are subject to change, and it is recommended to verify the current fees with the Florida Board of Dentistry or their website. Additionally, retired status dentists and dental hygienists are still required to meet continuing education requirements and pay annual renewal fees.",
-      "role": "assistant"
+        "content":  "As of my knowledge cutoff in September 2021, the retired status fee of the Florida Board of Dentistry is $200. This fee includes the retired status fee and the continuing education fee.\n\nIt is important to note that fees are subject to change, and it is recommended to verify the current fees with the Florida Board of Dentistry or their website. Additionally, retired status dentists and dental hygienists are still required to meet continuing education requirements and pay annual renewal fees.",
+        "role":  "assistant"
     },
     {
-      "content": "How much is the application fee for licensure by examination of board of hearing aid specialists in florida?",
-      "role": "user"
+        "content":  "How much is the application fee for licensure by examination of board of hearing aid specialists in florida?",
+        "role":  "user"
     },
     {
-      "content": "As of my knowledge cutoff in September 2021, the application fee for licensure by examination of the Florida Board of Hearing Aid Specialists is $150. This fee includes the application fee and the examination fee.\n\nIt is important to note that fees are subject to change, and it is recommended to verify the current fees with the Florida Board of Hearing Aid Specialists or their website.",
-      "role": "assistant"
+        "content":  "As of my knowledge cutoff in September 2021, the application fee for licensure by examination of the Florida Board of Hearing Aid Specialists is $150. This fee includes the application fee and the examination fee.\n\nIt is important to note that fees are subject to change, and it is recommended to verify the current fees with the Florida Board of Hearing Aid Specialists or their website.",
+        "role":  "assistant"
     },
     {
-      "content": "How much is the initial licensure fee of board of hearing aid specialists in florida?",
-      "role": "user"
+        "content":  "How much is the initial licensure fee of board of hearing aid specialists in florida?",
+        "role":  "user"
     },
     {
-      "content": "As of my knowledge cutoff in September 2021, the initial licensure fee of the Florida Board of Hearing Aid Specialists is $100. This fee includes the licensure fee and the examination fee.\n\nIt is important to note that fees are subject to change, and it is recommended to verify the current fees with the Florida Board of Hearing Aid Specialists or their website.",
-      "role": "assistant"
+        "content":  "As of my knowledge cutoff in September 2021, the initial licensure fee of the Florida Board of Hearing Aid Specialists is $100. This fee includes the licensure fee and the examination fee.\n\nIt is important to note that fees are subject to change, and it is recommended to verify the current fees with the Florida Board of Hearing Aid Specialists or their website.",
+        "role":  "assistant"
     },
     {
-      "content": "How much is the renewal fee for active license of board of hearing aid specialists in florida?",
-      "role": "user"
+        "content":  "How much is the renewal fee for active license of board of hearing aid specialists in florida?",
+        "role":  "user"
     },
     {
-      "content": "As of my knowledge cutoff in September 2021, the renewal fee for an active license of the Florida Board of Hearing Aid Specialists is $75. This fee includes the renewal fee and the continuing education fee.\n\nIt is important to note that fees are subject to change, and it is recommended to verify the current fees with the Florida Board of Hearing Aid Specialists or their website.",
-      "role": "assistant"
+        "content":  "As of my knowledge cutoff in September 2021, the renewal fee for an active license of the Florida Board of Hearing Aid Specialists is $75. This fee includes the renewal fee and the continuing education fee.\n\nIt is important to note that fees are subject to change, and it is recommended to verify the current fees with the Florida Board of Hearing Aid Specialists or their website.",
+        "role":  "assistant"
     },
     {
-      "content": "How much is the application fee for registration as a trainee of board of hearing aid specialists in florida?",
-      "role": "user"
+        "content":  "How much is the application fee for registration as a trainee of board of hearing aid specialists in florida?",
+        "role":  "user"
     },
     {
-      "content": "As of my knowledge cutoff in September 2021, the application fee for registration as a trainee of the Florida Board of Hearing Aid Specialists is $50. This fee includes the application fee and the examination fee.\n\nIt is important to note that fees are subject to change, and it is recommended to verify the current fees with the Florida Board of Hearing Aid Specialists or their website.",
-      "role": "assistant"
+        "content":  "As of my knowledge cutoff in September 2021, the application fee for registration as a trainee of the Florida Board of Hearing Aid Specialists is $50. This fee includes the application fee and the examination fee.\n\nIt is important to note that fees are subject to change, and it is recommended to verify the current fees with the Florida Board of Hearing Aid Specialists or their website.",
+        "role":  "assistant"
     },
     {
-      "content": "How much is the duplicate license fee of board of hearing aid specialists in florida?",
-      "role": "user"
+        "content":  "How much is the duplicate license fee of board of hearing aid specialists in florida?",
+        "role":  "user"
     },
     {
-      "content": "As of my knowledge cutoff in September 2021, the duplicate license fee of the Florida Board of Hearing Aid Specialists is $10. This fee includes the duplicate license fee.\n\nIt is important to note that fees are subject to change, and it is recommended to verify the current fees with the Florida Board of Hearing Aid Specialists or their website.",
-      "role": "assistant"
+        "content":  "As of my knowledge cutoff in September 2021, the duplicate license fee of the Florida Board of Hearing Aid Specialists is $10. This fee includes the duplicate license fee.\n\nIt is important to note that fees are subject to change, and it is recommended to verify the current fees with the Florida Board of Hearing Aid Specialists or their website.",
+        "role":  "assistant"
     },
     {
-      "content": "How much is a delinquent fee to board of board of hearing aid specialists in florida?",
-      "role": "user"
+        "content":  "How much is a delinquent fee to board of board of hearing aid specialists in florida?",
+        "role":  "user"
     },
     {
-      "content": "As of my knowledge cutoff in September 2021, the delinquent fee to the Florida Board of Hearing Aid Specialists is $50. This fee is applied when the renewal fee is not paid by the specified deadline.\n\nIt is important to note that fees are subject to change, and it is recommended to verify the current fees with the Florida Board of Hearing Aid Specialists or their website. Additionally, delinquent fees may be subject to further action or penalties by the Board.",
-      "role": "assistant"
+        "content":  "As of my knowledge cutoff in September 2021, the delinquent fee to the Florida Board of Hearing Aid Specialists is $50. This fee is applied when the renewal fee is not paid by the specified deadline.\n\nIt is important to note that fees are subject to change, and it is recommended to verify the current fees with the Florida Board of Hearing Aid Specialists or their website. Additionally, delinquent fees may be subject to further action or penalties by the Board.",
+        "role":  "assistant"
     },
     {
-      "content": "How much is the fee for reactivation of an inactive license of board of hearing aid specialists in florida?",
-      "role": "user"
+        "content":  "How much is the fee for reactivation of an inactive license of board of hearing aid specialists in florida?",
+        "role":  "user"
     },
     {
-      "content": "As of my knowledge cutoff in September 2021, the fee for reactivation of an inactive license of the Florida Board of Hearing Aid Specialists is $75. This fee includes the reactivation fee and the continuing education fee.\n\nIt is important to note that fees are subject to change, and it is recommended to verify the current fees with the Florida Board of Hearing Aid Specialists or their website. Additionally, individuals with an inactive license are required to meet certain continuing education requirements before they can reactivate their license.",
-      "role": "assistant"
+        "content":  "As of my knowledge cutoff in September 2021, the fee for reactivation of an inactive license of the Florida Board of Hearing Aid Specialists is $75. This fee includes the reactivation fee and the continuing education fee.\n\nIt is important to note that fees are subject to change, and it is recommended to verify the current fees with the Florida Board of Hearing Aid Specialists or their website. Additionally, individuals with an inactive license are required to meet certain continuing education requirements before they can reactivate their license.",
+        "role":  "assistant"
     },
     {
-      "content": "How much is the fee for retirement status of an active or inactive license of board of hearing aid specialists in florida?",
-      "role": "user"
+        "content":  "How much is the fee for retirement status of an active or inactive license of board of hearing aid specialists in florida?",
+        "role":  "user"
     },
     {
-      "content": "As of my knowledge cutoff in September 2021, the fee for retirement status of an active or inactive license of the Florida Board of Hearing Aid Specialists is $25. This fee includes the retirement status fee and the continuing education fee.\n\nIt is important to note that fees are subject to change, and it is recommended to verify the current fees with the Florida Board of Hearing Aid Specialists or their website. Additionally, individuals with a retirement status license are still required to meet certain continuing education requirements to maintain their status.",
-      "role": "assistant"
+        "content":  "As of my knowledge cutoff in September 2021, the fee for retirement status of an active or inactive license of the Florida Board of Hearing Aid Specialists is $25. This fee includes the retirement status fee and the continuing education fee.\n\nIt is important to note that fees are subject to change, and it is recommended to verify the current fees with the Florida Board of Hearing Aid Specialists or their website. Additionally, individuals with a retirement status license are still required to meet certain continuing education requirements to maintain their status.",
+        "role":  "assistant"
     },
     {
-      "content": "How much is the initial licensure fee of massage therapists in florida?",
-      "role": "user"
+        "content":  "How much is the initial licensure fee of massage therapists in florida?",
+        "role":  "user"
     },
     {
-      "content": "As of my knowledge cutoff in September 2021, the initial licensure fee for massage therapists in Florida is $100. This fee includes the initial licensure fee and the application fee.\n\nIt is important to note that fees are subject to change, and it is recommended to verify the current fees with the Florida Department of Health or their website.",
-      "role": "assistant"
+        "content":  "As of my knowledge cutoff in September 2021, the initial licensure fee for massage therapists in Florida is $100. This fee includes the initial licensure fee and the application fee.\n\nIt is important to note that fees are subject to change, and it is recommended to verify the current fees with the Florida Department of Health or their website.",
+        "role":  "assistant"
     },
     {
-      "content": "How much is the renewal fee for active license of massage therapists in florida?",
-      "role": "user"
+        "content":  "How much is the renewal fee for active license of massage therapists in florida?",
+        "role":  "user"
     },
     {
-      "content": "As of my knowledge cutoff in September 2021, the renewal fee for an active license of massage therapists in Florida is $100. This fee includes the renewal fee and the continuing education fee.\n\nIt is important to note that fees are subject to change, and it is recommended to verify the current fees with the Florida Department of Health or their website.",
-      "role": "assistant"
+        "content":  "As of my knowledge cutoff in September 2021, the renewal fee for an active license of massage therapists in Florida is $100. This fee includes the renewal fee and the continuing education fee.\n\nIt is important to note that fees are subject to change, and it is recommended to verify the current fees with the Florida Department of Health or their website.",
+        "role":  "assistant"
     },
     {
-      "content": "How much is the renewal fee for inactive license of massage therapists in florida?",
-      "role": "user"
+        "content":  "How much is the renewal fee for inactive license of massage therapists in florida?",
+        "role":  "user"
     },
     {
-      "content": "As of my knowledge cutoff in September 2021, the renewal fee for an inactive license of massage therapists in Florida is $50. This fee includes the renewal fee and the continuing education fee.\n\nIt is important to note that fees are subject to change, and it is recommended to verify the current fees with the Florida Department of Health or their website. Additionally, individuals with an inactive license are required to meet certain continuing education requirements to reactivate their license.",
-      "role": "assistant"
+        "content":  "As of my knowledge cutoff in September 2021, the renewal fee for an inactive license of massage therapists in Florida is $50. This fee includes the renewal fee and the continuing education fee.\n\nIt is important to note that fees are subject to change, and it is recommended to verify the current fees with the Florida Department of Health or their website. Additionally, individuals with an inactive license are required to meet certain continuing education requirements to reactivate their license.",
+        "role":  "assistant"
     },
     {
-      "content": "How much is the delinquent license fee of massage therapists in florida?",
-      "role": "user"
+        "content":  "How much is the delinquent license fee of massage therapists in florida?",
+        "role":  "user"
     },
     {
-      "content": "As of my knowledge cutoff in September 2021, the delinquent license fee for massage therapists in Florida is $50. This fee is applied when the renewal fee is not paid by the specified deadline.\n\nIt is important to note that fees are subject to change, and it is recommended to verify the current fees with the Florida Department of Health or their website. Additionally, delinquent fees may be subject to further action or penalties by the Board.",
-      "role": "assistant"
+        "content":  "As of my knowledge cutoff in September 2021, the delinquent license fee for massage therapists in Florida is $50. This fee is applied when the renewal fee is not paid by the specified deadline.\n\nIt is important to note that fees are subject to change, and it is recommended to verify the current fees with the Florida Department of Health or their website. Additionally, delinquent fees may be subject to further action or penalties by the Board.",
+        "role":  "assistant"
     },
     {
-      "content": "How much is the reactivation fee of massage therapists in florida?",
-      "role": "user"
+        "content":  "How much is the reactivation fee of massage therapists in florida?",
+        "role":  "user"
     },
     {
-      "content": "As of my knowledge cutoff in September 2021, the reactivation fee for massage therapists in Florida is $100. This fee is applied when an individual with an inactive license wishes to reactivate their license.\n\nIt is important to note that fees are subject to change, and it is recommended to verify the current fees with the Florida Department of Health or their website. Additionally, individuals with an inactive license are required to meet certain continuing education requirements and submit additional documentation to reactivate their license.",
-      "role": "assistant"
+        "content":  "As of my knowledge cutoff in September 2021, the reactivation fee for massage therapists in Florida is $100. This fee is applied when an individual with an inactive license wishes to reactivate their license.\n\nIt is important to note that fees are subject to change, and it is recommended to verify the current fees with the Florida Department of Health or their website. Additionally, individuals with an inactive license are required to meet certain continuing education requirements and submit additional documentation to reactivate their license.",
+        "role":  "assistant"
     },
     {
-      "content": "How much is the change status fee of massage therapists in florida?",
-      "role": "user"
+        "content":  "How much is the change status fee of massage therapists in florida?",
+        "role":  "user"
     },
     {
-      "content": "As of my knowledge cutoff in September 2021, the change status fee for massage therapists in Florida is $25. This fee is applied when an individual with an active or inactive license wishes to change their licensure status.\n\nIt is important to note that fees are subject to change, and it is recommended to verify the current fees with the Florida Department of Health or their website. Additionally, individuals may be required to meet certain requirements or submit additional documentation to change their licensure status.",
-      "role": "assistant"
+        "content":  "As of my knowledge cutoff in September 2021, the change status fee for massage therapists in Florida is $25. This fee is applied when an individual with an active or inactive license wishes to change their licensure status.\n\nIt is important to note that fees are subject to change, and it is recommended to verify the current fees with the Florida Department of Health or their website. Additionally, individuals may be required to meet certain requirements or submit additional documentation to change their licensure status.",
+        "role":  "assistant"
     },
     {
-      "content": "How much is the retired status fee of massage therapists in florida?",
-      "role": "user"
+        "content":  "How much is the retired status fee of massage therapists in florida?",
+        "role":  "user"
     },
     {
-      "content": "As of my knowledge cutoff in September 2021, the retired status fee for massage therapists in Florida is $25. This fee is applied when an individual with an active or inactive license wishes to retire their license.\n\nIt is important to note that fees are subject to change, and it is recommended to verify the current fees with the Florida Department of Health or their website. Additionally, individuals with a retired status license are not required to meet continuing education requirements or pay renewal fees.",
-      "role": "assistant"
+        "content":  "As of my knowledge cutoff in September 2021, the retired status fee for massage therapists in Florida is $25. This fee is applied when an individual with an active or inactive license wishes to retire their license.\n\nIt is important to note that fees are subject to change, and it is recommended to verify the current fees with the Florida Department of Health or their website. Additionally, individuals with a retired status license are not required to meet continuing education requirements or pay renewal fees.",
+        "role":  "assistant"
     },
     {
-      "content": "How much is the application fee for massage establishments in florida?",
-      "role": "user"
+        "content":  "How much is the application fee for massage establishments in florida?",
+        "role":  "user"
     },
     {
-      "content": "As of my knowledge cutoff in September 2021, the application fee for massage establishments in Florida is $150. This fee includes the initial application fee and the background check fee.\n\nIt is important to note that fees are subject to change, and it is recommended to verify the current fees with the Florida Department of Health or their website. Additionally, massage establishments are subject to certain requirements and regulations, and may be required to obtain additional licenses or permits.",
-      "role": "assistant"
+        "content":  "As of my knowledge cutoff in September 2021, the application fee for massage establishments in Florida is $150. This fee includes the initial application fee and the background check fee.\n\nIt is important to note that fees are subject to change, and it is recommended to verify the current fees with the Florida Department of Health or their website. Additionally, massage establishments are subject to certain requirements and regulations, and may be required to obtain additional licenses or permits.",
+        "role":  "assistant"
     },
     {
-      "content": "How much is the initial licensure fee for massage establishments in florida?",
-      "role": "user"
+        "content":  "How much is the initial licensure fee for massage establishments in florida?",
+        "role":  "user"
     },
     {
-      "content": "As of my knowledge cutoff in September 2021, the initial licensure fee for massage establishments in Florida is $200. This fee includes the initial licensure fee and the application fee.\n\nIt is important to note that fees are subject to change, and it is recommended to verify the current fees with the Florida Department of Health or their website. Additionally, massage establishments are subject to certain requirements and regulations, and may be required to obtain additional licenses or permits.",
-      "role": "assistant"
+        "content":  "As of my knowledge cutoff in September 2021, the initial licensure fee for massage establishments in Florida is $200. This fee includes the initial licensure fee and the application fee.\n\nIt is important to note that fees are subject to change, and it is recommended to verify the current fees with the Florida Department of Health or their website. Additionally, massage establishments are subject to certain requirements and regulations, and may be required to obtain additional licenses or permits.",
+        "role":  "assistant"
     },
     {
-      "content": "How much is the renewal fee for massage establishments in florida?",
-      "role": "user"
+        "content":  "How much is the renewal fee for massage establishments in florida?",
+        "role":  "user"
     },
     {
-      "content": "As of my knowledge cutoff in September 2021, the renewal fee for massage establishments in Florida is $200. This fee includes the renewal fee and the continuing education fee.\n\nIt is important to note that fees are subject to change, and it is recommended to verify the current fees with the Florida Department of Health or their website. Additionally, massage establishments are subject to certain requirements and regulations, and may be required to obtain additional licenses or permits.",
-      "role": "assistant"
+        "content":  "As of my knowledge cutoff in September 2021, the renewal fee for massage establishments in Florida is $200. This fee includes the renewal fee and the continuing education fee.\n\nIt is important to note that fees are subject to change, and it is recommended to verify the current fees with the Florida Department of Health or their website. Additionally, massage establishments are subject to certain requirements and regulations, and may be required to obtain additional licenses or permits.",
+        "role":  "assistant"
     },
     {
-      "content": "How much is the application fee for change of business of massage establishments in florida?",
-      "role": "user"
+        "content":  "How much is the application fee for change of business of massage establishments in florida?",
+        "role":  "user"
     },
     {
-      "content": "As of my knowledge cutoff in September 2021, the application fee for changing the business of a massage establishment in Florida is $150. This fee includes the change of business application fee and the background check fee.\n\nIt is important to note that fees are subject to change, and it is recommended to verify the current fees with the Florida Department of Health or their website. Additionally, massage establishments are subject to certain requirements and regulations, and may be required to obtain additional licenses or permits when changing their business.",
-      "role": "assistant"
+        "content":  "As of my knowledge cutoff in September 2021, the application fee for changing the business of a massage establishment in Florida is $150. This fee includes the change of business application fee and the background check fee.\n\nIt is important to note that fees are subject to change, and it is recommended to verify the current fees with the Florida Department of Health or their website. Additionally, massage establishments are subject to certain requirements and regulations, and may be required to obtain additional licenses or permits when changing their business.",
+        "role":  "assistant"
     },
     {
-      "content": "How much is the application fee for transfer of location of massage establishments in florida?",
-      "role": "user"
+        "content":  "How much is the application fee for transfer of location of massage establishments in florida?",
+        "role":  "user"
     },
     {
-      "content": "As of my knowledge cutoff in September 2021, the application fee for transfer of location of a massage establishment in Florida is $150. This fee includes the transfer of location application fee and the background check fee.\n\nIt is important to note that fees are subject to change, and it is recommended to verify the current fees with the Florida Department of Health or their website. Additionally, massage establishments are subject to certain requirements and regulations, and may be required to obtain additional licenses or permits when transferring their location.",
-      "role": "assistant"
+        "content":  "As of my knowledge cutoff in September 2021, the application fee for transfer of location of a massage establishment in Florida is $150. This fee includes the transfer of location application fee and the background check fee.\n\nIt is important to note that fees are subject to change, and it is recommended to verify the current fees with the Florida Department of Health or their website. Additionally, massage establishments are subject to certain requirements and regulations, and may be required to obtain additional licenses or permits when transferring their location.",
+        "role":  "assistant"
     },
     {
-      "content": "I am a military spouse, may I be exempt from renewal my license of board of massage therapy in florida?",
-      "role": "user"
+        "content":  "I am a military spouse, may I be exempt from renewal my license of board of massage therapy in florida?",
+        "role":  "user"
     },
     {
-      "content": "As of my knowledge cutoff in September 2021, military spouses in Florida may be eligible for an exemption from renewing their massage therapy license. Florida Statute 456.0635 allows for a waiver of renewal fees for active duty military members and their spouses who hold a valid license in another state or jurisdiction.\n\nTo qualify for this exemption, military spouses must meet certain criteria, such as being married to an active duty military member, holding a valid massage therapy license in another state or jurisdiction, and being stationed in Florida. They must also submit an application for the waiver and provide documentation of their military status and out-of-state license.\n\nIt is important to note that requirements and eligibility criteria may be subject to change, and it is recommended to verify the current requirements with the Florida Department of Health or their website.",
-      "role": "assistant"
+        "content":  "As of my knowledge cutoff in September 2021, military spouses in Florida may be eligible for an exemption from renewing their massage therapy license. Florida Statute 456.0635 allows for a waiver of renewal fees for active duty military members and their spouses who hold a valid license in another state or jurisdiction.\n\nTo qualify for this exemption, military spouses must meet certain criteria, such as being married to an active duty military member, holding a valid massage therapy license in another state or jurisdiction, and being stationed in Florida. They must also submit an application for the waiver and provide documentation of their military status and out-of-state license.\n\nIt is important to note that requirements and eligibility criteria may be subject to change, and it is recommended to verify the current requirements with the Florida Department of Health or their website.",
+        "role":  "assistant"
     },
     {
-      "content": "What I need do at first biennial renewal cycle for my license of massage therapists in florida?",
-      "role": "user"
+        "content":  "What I need do at first biennial renewal cycle for my license of massage therapists in florida?",
+        "role":  "user"
     },
     {
-      "content": "At the first biennial renewal cycle for your massage therapist license in Florida, you will be required to complete continuing education courses and pay the renewal fee. Here are the steps you should follow:\n\n1. Complete Continuing Education Requirements: Massage therapists are required to complete 24 hours of continuing education courses every two years. You can choose courses that are relevant to your practice and meet the requirements set by the Florida Board of Massage Therapy.\n2. Verify your Continuing Education Courses: Before renewing your license, you must verify that your continuing education courses have been completed and that you have acquired the required hours. You can do this by keeping records of your courses and providing them to the Florida Board of Massage Therapy when requested.\n3. Pay the Renewal Fee: You will be required to pay the renewal fee, which is currently $150. This fee covers the renewal of your license and the cost of regulation and oversight by the Florida Board of Massage Therapy.\n4. Submit the Renewal Application: After completing the above steps, you will need to submit the renewal application and fee to the Florida Board of Massage Therapy. You can do this online or by mail.\n5. Wait for Approval: Once your application is received and processed, the Florida Board of Massage Therapy will review your application and issue your renewed license.\n\nIt is important to note that the process and requirements for renewing a massage therapist license in Florida may be subject to change. It is recommended to verify the current requirements with the Florida Department of Health or their website.",
-      "role": "assistant"
+        "content":  "At the first biennial renewal cycle for your massage therapist license in Florida, you will be required to complete continuing education courses and pay the renewal fee. Here are the steps you should follow:\n\n1. Complete Continuing Education Requirements: Massage therapists are required to complete 24 hours of continuing education courses every two years. You can choose courses that are relevant to your practice and meet the requirements set by the Florida Board of Massage Therapy.\n2. Verify your Continuing Education Courses: Before renewing your license, you must verify that your continuing education courses have been completed and that you have acquired the required hours. You can do this by keeping records of your courses and providing them to the Florida Board of Massage Therapy when requested.\n3. Pay the Renewal Fee: You will be required to pay the renewal fee, which is currently $150. This fee covers the renewal of your license and the cost of regulation and oversight by the Florida Board of Massage Therapy.\n4. Submit the Renewal Application: After completing the above steps, you will need to submit the renewal application and fee to the Florida Board of Massage Therapy. You can do this online or by mail.\n5. Wait for Approval: Once your application is received and processed, the Florida Board of Massage Therapy will review your application and issue your renewed license.\n\nIt is important to note that the process and requirements for renewing a massage therapist license in Florida may be subject to change. It is recommended to verify the current requirements with the Florida Department of Health or their website.",
+        "role":  "assistant"
     }
-  ],
-  "turn": 32,
-  "language": "English",
-  "openai_moderation": [
-    {
-      "categories": {
-        "harassment": false,
-        "harassment/threatening": false,
-        "hate": false,
-        "hate/threatening": false,
-        "self-harm": false,
-        "self-harm/instructions": false,
-        "self-harm/intent": false,
-        "sexual": false,
-        "sexual/minors": false,
-        "violence": false,
-        "violence/graphic": false
-      },
-      "category_scores": {
-        "harassment": 1.2660864e-07,
-        "harassment/threatening": 5.526804e-08,
-        "hate": 3.113035e-07,
-        "hate/threatening": 4.84303e-09,
-        "self-harm": 4.8326886e-08,
-        "self-harm/instructions": 1.9472632e-09,
-        "self-harm/intent": 7.3205517e-09,
-        "sexual": 2.036946e-07,
-        "sexual/minors": 9.324005e-10,
-        "violence": 0.00019357237,
-        "violence/graphic": 1.1837489e-06
-      },
-      "flagged": false
-    },
-    {
-      "categories": {
-        "harassment": false,
-        "harassment/threatening": false,
-        "hate": false,
-        "hate/threatening": false,
-        "self-harm": false,
-        "self-harm/instructions": false,
-        "self-harm/intent": false,
-        "sexual": false,
-        "sexual/minors": false,
-        "violence": false,
-        "violence/graphic": false
-      },
-      "category_scores": {
-        "harassment": 3.678856e-06,
-        "harassment/threatening": 7.7925854e-08,
-        "hate": 4.6543596e-07,
-        "hate/threatening": 5.0188397e-08,
-        "self-harm": 4.5527822e-06,
-        "self-harm/instructions": 1.2795162e-07,
-        "self-harm/intent": 1.6933498e-07,
-        "sexual": 1.1918996e-05,
-        "sexual/minors": 3.1541813e-08,
-        "violence": 0.0018332325,
-        "violence/graphic": 0.00024838446
-      },
-      "flagged": false
-    },
-    {
-      "categories": {
-        "harassment": false,
-        "harassment/threatening": false,
-        "hate": false,
-        "hate/threatening": false,
-        "self-harm": false,
-        "self-harm/instructions": false,
-        "self-harm/intent": false,
-        "sexual": false,
-        "sexual/minors": false,
-        "violence": false,
-        "violence/graphic": false
-      },
-      "category_scores": {
-        "harassment": 2.5391698e-06,
-        "harassment/threatening": 9.835507e-08,
-        "hate": 1.2389337e-06,
-        "hate/threatening": 6.3249175e-09,
-        "self-harm": 7.293945e-09,
-        "self-harm/instructions": 5.3717764e-10,
-        "self-harm/intent": 3.457962e-10,
-        "sexual": 6.634682e-08,
-        "sexual/minors": 1.2490183e-09,
-        "violence": 2.534362e-05,
-        "violence/graphic": 2.958237e-06
-      },
-      "flagged": false
-    },
-    {
-      "categories": {
-        "harassment": false,
-        "harassment/threatening": false,
-        "hate": false,
-        "hate/threatening": false,
-        "self-harm": false,
-        "self-harm/instructions": false,
-        "self-harm/intent": false,
-        "sexual": false,
-        "sexual/minors": false,
-        "violence": false,
-        "violence/graphic": false
-      },
-      "category_scores": {
-        "harassment": 6.307836e-07,
-        "harassment/threatening": 8.647284e-08,
-        "hate": 2.1334758e-07,
-        "hate/threatening": 1.0263612e-08,
-        "self-harm": 1.8801175e-07,
-        "self-harm/instructions": 1.0866329e-08,
-        "self-harm/intent": 3.0985994e-09,
-        "sexual": 4.30453e-07,
-        "sexual/minors": 8.646703e-09,
-        "violence": 0.0003040162,
-        "violence/graphic": 2.1655063e-05
-      },
-      "flagged": false
-    },
-    {
-      "categories": {
-        "harassment": false,
-        "harassment/threatening": false,
-        "hate": false,
-        "hate/threatening": false,
-        "self-harm": false,
-        "self-harm/instructions": false,
-        "self-harm/intent": false,
-        "sexual": false,
-        "sexual/minors": false,
-        "violence": false,
-        "violence/graphic": false
-      },
-      "category_scores": {
-        "harassment": 8.520873e-06,
-        "harassment/threatening": 1.1148294e-06,
-        "hate": 1.10825085e-05,
-        "hate/threatening": 7.128361e-07,
-        "self-harm": 9.6590604e-08,
-        "self-harm/instructions": 6.070212e-09,
-        "self-harm/intent": 5.8687024e-09,
-        "sexual": 8.7462024e-07,
-        "sexual/minors": 1.5394367e-07,
-        "violence": 0.0032096333,
-        "violence/graphic": 0.00019581786
-      },
-      "flagged": false
-    },
-    {
-      "categories": {
-        "harassment": false,
-        "harassment/threatening": false,
-        "hate": false,
-        "hate/threatening": false,
-        "self-harm": false,
-        "self-harm/instructions": false,
-        "self-harm/intent": false,
-        "sexual": false,
-        "sexual/minors": false,
-        "violence": false,
-        "violence/graphic": false
-      },
-      "category_scores": {
-        "harassment": 4.3935125e-07,
-        "harassment/threatening": 1.4537308e-07,
-        "hate": 5.961509e-06,
-        "hate/threatening": 3.258437e-07,
-        "self-harm": 3.3409074e-07,
-        "self-harm/instructions": 8.073772e-08,
-        "self-harm/intent": 8.957309e-09,
-        "sexual": 2.699135e-06,
-        "sexual/minors": 6.569002e-07,
-        "violence": 0.005793242,
-        "violence/graphic": 0.00018004225
-      },
-      "flagged": false
-    },
-    {
-      "categories": {
-        "harassment": false,
-        "harassment/threatening": false,
-        "hate": false,
-        "hate/threatening": false,
-        "self-harm": false,
-        "self-harm/instructions": false,
-        "self-harm/intent": false,
-        "sexual": false,
-        "sexual/minors": false,
-        "violence": false,
-        "violence/graphic": false
-      },
-      "category_scores": {
-        "harassment": 1.04318215e-05,
-        "harassment/threatening": 2.072947e-06,
-        "hate": 8.291853e-06,
-        "hate/threatening": 3.4743587e-07,
-        "self-harm": 9.1011984e-08,
-        "self-harm/instructions": 1.997511e-08,
-        "self-harm/intent": 6.3291408e-09,
-        "sexual": 1.3981435e-06,
-        "sexual/minors": 2.3261143e-07,
-        "violence": 0.0024066325,
-        "violence/graphic": 0.00026554405
-      },
-      "flagged": false
-    },
-    {
-      "categories": {
-        "harassment": false,
-        "harassment/threatening": false,
-        "hate": false,
-        "hate/threatening": false,
-        "self-harm": false,
-        "self-harm/instructions": false,
-        "self-harm/intent": false,
-        "sexual": false,
-        "sexual/minors": false,
-        "violence": false,
-        "violence/graphic": false
-      },
-      "category_scores": {
-        "harassment": 3.0085366e-07,
-        "harassment/threatening": 1.12429596e-07,
-        "hate": 2.725155e-06,
-        "hate/threatening": 1.1693126e-07,
-        "self-harm": 2.1790682e-07,
-        "self-harm/instructions": 2.420329e-07,
-        "self-harm/intent": 9.308071e-09,
-        "sexual": 3.242629e-06,
-        "sexual/minors": 5.9113273e-07,
-        "violence": 0.0030791778,
-        "violence/graphic": 0.00028904126
-      },
-      "flagged": false
-    },
-    {
-      "categories": {
-        "harassment": false,
-        "harassment/threatening": false,
-        "hate": false,
-        "hate/threatening": false,
-        "self-harm": false,
-        "self-harm/instructions": false,
-        "self-harm/intent": false,
-        "sexual": false,
-        "sexual/minors": false,
-        "violence": false,
-        "violence/graphic": false
-      },
-      "category_scores": {
-        "harassment": 1.9676193e-06,
-        "harassment/threatening": 9.7962456e-08,
-        "hate": 3.3478364e-06,
-        "hate/threatening": 5.002097e-08,
-        "self-harm": 8.267869e-08,
-        "self-harm/instructions": 1.5949188e-09,
-        "self-harm/intent": 1.6136946e-09,
-        "sexual": 2.7150481e-06,
-        "sexual/minors": 1.15100306e-07,
-        "violence": 0.0017192077,
-        "violence/graphic": 4.1320935e-05
-      },
-      "flagged": false
-    },
-    {
-      "categories": {
-        "harassment": false,
-        "harassment/threatening": false,
-        "hate": false,
-        "hate/threatening": false,
-        "self-harm": false,
-        "self-harm/instructions": false,
-        "self-harm/intent": false,
-        "sexual": false,
-        "sexual/minors": false,
-        "violence": false,
-        "violence/graphic": false
-      },
-      "category_scores": {
-        "harassment": 1.5974166e-07,
-        "harassment/threatening": 2.3707056e-08,
-        "hate": 3.7833256e-06,
-        "hate/threatening": 1.0610223e-07,
-        "self-harm": 1.0344249e-06,
-        "self-harm/instructions": 2.0365354e-08,
-        "self-harm/intent": 1.5433155e-08,
-        "sexual": 7.1244312e-06,
-        "sexual/minors": 2.0630195e-07,
-        "violence": 0.0062191617,
-        "violence/graphic": 0.00011728773
-      },
-      "flagged": false
-    },
-    {
-      "categories": {
-        "harassment": false,
-        "harassment/threatening": false,
-        "hate": false,
-        "hate/threatening": false,
-        "self-harm": false,
-        "self-harm/instructions": false,
-        "self-harm/intent": false,
-        "sexual": false,
-        "sexual/minors": false,
-        "violence": false,
-        "violence/graphic": false
-      },
-      "category_scores": {
-        "harassment": 2.7618255e-06,
-        "harassment/threatening": 2.0540303e-07,
-        "hate": 4.5619527e-06,
-        "hate/threatening": 1.8004104e-07,
-        "self-harm": 4.7673305e-07,
-        "self-harm/instructions": 8.897677e-09,
-        "self-harm/intent": 1.2877481e-08,
-        "sexual": 4.2032225e-06,
-        "sexual/minors": 1.9987228e-06,
-        "violence": 0.0012680008,
-        "violence/graphic": 3.417473e-05
-      },
-      "flagged": false
-    },
-    {
-      "categories": {
-        "harassment": false,
-        "harassment/threatening": false,
-        "hate": false,
-        "hate/threatening": false,
-        "self-harm": false,
-        "self-harm/instructions": false,
-        "self-harm/intent": false,
-        "sexual": false,
-        "sexual/minors": false,
-        "violence": false,
-        "violence/graphic": false
-      },
-      "category_scores": {
-        "harassment": 2.0733687e-07,
-        "harassment/threatening": 2.8934904e-08,
-        "hate": 3.2162197e-06,
-        "hate/threatening": 1.3757584e-07,
-        "self-harm": 2.0070852e-06,
-        "self-harm/instructions": 6.159695e-08,
-        "self-harm/intent": 4.7962413e-08,
-        "sexual": 4.7595895e-06,
-        "sexual/minors": 1.3867909e-06,
-        "violence": 0.006868324,
-        "violence/graphic": 5.0982802e-05
-      },
-      "flagged": false
-    },
-    {
-      "categories": {
-        "harassment": false,
-        "harassment/threatening": false,
-        "hate": false,
-        "hate/threatening": false,
-        "self-harm": false,
-        "self-harm/instructions": false,
-        "self-harm/intent": false,
-        "sexual": false,
-        "sexual/minors": false,
-        "violence": false,
-        "violence/graphic": false
-      },
-      "category_scores": {
-        "harassment": 3.3652368e-06,
-        "harassment/threatening": 2.703726e-07,
-        "hate": 7.170646e-06,
-        "hate/threatening": 1.0680292e-07,
-        "self-harm": 3.1224454e-07,
-        "self-harm/instructions": 6.201768e-08,
-        "self-harm/intent": 1.0026391e-08,
-        "sexual": 3.4873256e-06,
-        "sexual/minors": 9.131215e-07,
-        "violence": 0.000844984,
-        "violence/graphic": 3.1624568e-05
-      },
-      "flagged": false
-    },
-    {
-      "categories": {
-        "harassment": false,
-        "harassment/threatening": false,
-        "hate": false,
-        "hate/threatening": false,
-        "self-harm": false,
-        "self-harm/instructions": false,
-        "self-harm/intent": false,
-        "sexual": false,
-        "sexual/minors": false,
-        "violence": false,
-        "violence/graphic": false
-      },
-      "category_scores": {
-        "harassment": 1.306888e-07,
-        "harassment/threatening": 1.5672843e-08,
-        "hate": 1.8690047e-06,
-        "hate/threatening": 5.8234782e-08,
-        "self-harm": 9.583414e-07,
-        "self-harm/instructions": 6.940553e-08,
-        "self-harm/intent": 1.8656888e-08,
-        "sexual": 6.336128e-06,
-        "sexual/minors": 4.3836894e-07,
-        "violence": 0.0023350038,
-        "violence/graphic": 3.9762126e-05
-      },
-      "flagged": false
-    },
-    {
-      "categories": {
-        "harassment": false,
-        "harassment/threatening": false,
-        "hate": false,
-        "hate/threatening": false,
-        "self-harm": false,
-        "self-harm/instructions": false,
-        "self-harm/intent": false,
-        "sexual": false,
-        "sexual/minors": false,
-        "violence": false,
-        "violence/graphic": false
-      },
-      "category_scores": {
-        "harassment": 2.8821382e-06,
-        "harassment/threatening": 1.1342497e-06,
-        "hate": 2.6510897e-06,
-        "hate/threatening": 5.1096354e-08,
-        "self-harm": 1.3566591e-07,
-        "self-harm/instructions": 6.6609775e-09,
-        "self-harm/intent": 1.2582415e-08,
-        "sexual": 4.809718e-07,
-        "sexual/minors": 1.7096863e-08,
-        "violence": 0.00040604052,
-        "violence/graphic": 2.6298863e-05
-      },
-      "flagged": false
-    },
-    {
-      "categories": {
-        "harassment": false,
-        "harassment/threatening": false,
-        "hate": false,
-        "hate/threatening": false,
-        "self-harm": false,
-        "self-harm/instructions": false,
-        "self-harm/intent": false,
-        "sexual": false,
-        "sexual/minors": false,
-        "violence": false,
-        "violence/graphic": false
-      },
-      "category_scores": {
-        "harassment": 2.7710783e-07,
-        "harassment/threatening": 1.2620895e-08,
-        "hate": 9.020368e-06,
-        "hate/threatening": 6.193113e-09,
-        "self-harm": 6.915552e-08,
-        "self-harm/instructions": 4.2267208e-09,
-        "self-harm/intent": 6.0633503e-09,
-        "sexual": 6.7151365e-07,
-        "sexual/minors": 1.2589209e-08,
-        "violence": 0.0003733857,
-        "violence/graphic": 0.000103284365
-      },
-      "flagged": false
-    },
-    {
-      "categories": {
-        "harassment": false,
-        "harassment/threatening": false,
-        "hate": false,
-        "hate/threatening": false,
-        "self-harm": false,
-        "self-harm/instructions": false,
-        "self-harm/intent": false,
-        "sexual": false,
-        "sexual/minors": false,
-        "violence": false,
-        "violence/graphic": false
-      },
-      "category_scores": {
-        "harassment": 5.0458398e-06,
-        "harassment/threatening": 1.4589461e-06,
-        "hate": 6.134339e-06,
-        "hate/threatening": 1.7553462e-07,
-        "self-harm": 2.710645e-07,
-        "self-harm/instructions": 5.876061e-09,
-        "self-harm/intent": 2.2969513e-08,
-        "sexual": 1.7631153e-06,
-        "sexual/minors": 3.5167577e-08,
-        "violence": 0.0005902433,
-        "violence/graphic": 5.1272516e-05
-      },
-      "flagged": false
-    },
-    {
-      "categories": {
-        "harassment": false,
-        "harassment/threatening": false,
-        "hate": false,
-        "hate/threatening": false,
-        "self-harm": false,
-        "self-harm/instructions": false,
-        "self-harm/intent": false,
-        "sexual": false,
-        "sexual/minors": false,
-        "violence": false,
-        "violence/graphic": false
-      },
-      "category_scores": {
-        "harassment": 2.8743543e-07,
-        "harassment/threatening": 1.1681597e-08,
-        "hate": 8.412557e-06,
-        "hate/threatening": 1.8920062e-08,
-        "self-harm": 4.431418e-08,
-        "self-harm/instructions": 3.8216426e-09,
-        "self-harm/intent": 4.6591317e-09,
-        "sexual": 8.288156e-07,
-        "sexual/minors": 1.9944881e-08,
-        "violence": 0.00019901835,
-        "violence/graphic": 8.850204e-05
-      },
-      "flagged": false
-    },
-    {
-      "categories": {
-        "harassment": false,
-        "harassment/threatening": false,
-        "hate": false,
-        "hate/threatening": false,
-        "self-harm": false,
-        "self-harm/instructions": false,
-        "self-harm/intent": false,
-        "sexual": false,
-        "sexual/minors": false,
-        "violence": false,
-        "violence/graphic": false
-      },
-      "category_scores": {
-        "harassment": 8.087201e-06,
-        "harassment/threatening": 8.9699694e-07,
-        "hate": 9.351962e-06,
-        "hate/threatening": 3.934749e-07,
-        "self-harm": 1.159573e-06,
-        "self-harm/instructions": 1.3259607e-06,
-        "self-harm/intent": 1.8368364e-07,
-        "sexual": 1.5176211e-06,
-        "sexual/minors": 1.03151535e-07,
-        "violence": 0.00029156014,
-        "violence/graphic": 2.7988808e-05
-      },
-      "flagged": false
-    },
-    {
-      "categories": {
-        "harassment": false,
-        "harassment/threatening": false,
-        "hate": false,
-        "hate/threatening": false,
-        "self-harm": false,
-        "self-harm/instructions": false,
-        "self-harm/intent": false,
-        "sexual": false,
-        "sexual/minors": false,
-        "violence": false,
-        "violence/graphic": false
-      },
-      "category_scores": {
-        "harassment": 9.765787e-07,
-        "harassment/threatening": 3.560724e-08,
-        "hate": 3.8936196e-05,
-        "hate/threatening": 1.1737471e-07,
-        "self-harm": 1.06743656e-07,
-        "self-harm/instructions": 6.254104e-09,
-        "self-harm/intent": 1.1456922e-08,
-        "sexual": 1.3575952e-06,
-        "sexual/minors": 3.1225397e-08,
-        "violence": 0.0013374782,
-        "violence/graphic": 0.00014591502
-      },
-      "flagged": false
-    },
-    {
-      "categories": {
-        "harassment": false,
-        "harassment/threatening": false,
-        "hate": false,
-        "hate/threatening": false,
-        "self-harm": false,
-        "self-harm/instructions": false,
-        "self-harm/intent": false,
-        "sexual": false,
-        "sexual/minors": false,
-        "violence": false,
-        "violence/graphic": false
-      },
-      "category_scores": {
-        "harassment": 1.312791e-05,
-        "harassment/threatening": 6.370272e-07,
-        "hate": 0.00012252659,
-        "hate/threatening": 2.219677e-06,
-        "self-harm": 6.6343155e-08,
-        "self-harm/instructions": 3.5364376e-09,
-        "self-harm/intent": 3.5244176e-09,
-        "sexual": 1.239514e-06,
-        "sexual/minors": 6.792356e-08,
-        "violence": 0.0011425611,
-        "violence/graphic": 0.00013765595
-      },
-      "flagged": false
-    },
-    {
-      "categories": {
-        "harassment": false,
-        "harassment/threatening": false,
-        "hate": false,
-        "hate/threatening": false,
-        "self-harm": false,
-        "self-harm/instructions": false,
-        "self-harm/intent": false,
-        "sexual": false,
-        "sexual/minors": false,
-        "violence": false,
-        "violence/graphic": false
-      },
-      "category_scores": {
-        "harassment": 5.642371e-07,
-        "harassment/threatening": 7.556897e-08,
-        "hate": 1.3329899e-05,
-        "hate/threatening": 8.258962e-07,
-        "self-harm": 2.3577755e-07,
-        "self-harm/instructions": 1.8096193e-08,
-        "self-harm/intent": 1.40845415e-08,
-        "sexual": 3.711735e-06,
-        "sexual/minors": 9.780204e-09,
-        "violence": 0.0015436088,
-        "violence/graphic": 0.00015686297
-      },
-      "flagged": false
-    },
-    {
-      "categories": {
-        "harassment": false,
-        "harassment/threatening": false,
-        "hate": false,
-        "hate/threatening": false,
-        "self-harm": false,
-        "self-harm/instructions": false,
-        "self-harm/intent": false,
-        "sexual": false,
-        "sexual/minors": false,
-        "violence": false,
-        "violence/graphic": false
-      },
-      "category_scores": {
-        "harassment": 3.398422e-05,
-        "harassment/threatening": 2.420445e-06,
-        "hate": 6.072328e-05,
-        "hate/threatening": 2.370901e-06,
-        "self-harm": 1.6449694e-07,
-        "self-harm/instructions": 4.3350914e-09,
-        "self-harm/intent": 7.79502e-09,
-        "sexual": 1.3868306e-06,
-        "sexual/minors": 1.8967457e-07,
-        "violence": 0.0018912454,
-        "violence/graphic": 0.00017188018
-      },
-      "flagged": false
-    },
-    {
-      "categories": {
-        "harassment": false,
-        "harassment/threatening": false,
-        "hate": false,
-        "hate/threatening": false,
-        "self-harm": false,
-        "self-harm/instructions": false,
-        "self-harm/intent": false,
-        "sexual": false,
-        "sexual/minors": false,
-        "violence": false,
-        "violence/graphic": false
-      },
-      "category_scores": {
-        "harassment": 1.3289683e-07,
-        "harassment/threatening": 8.970422e-09,
-        "hate": 1.0242883e-06,
-        "hate/threatening": 1.8010384e-08,
-        "self-harm": 1.0125755e-07,
-        "self-harm/instructions": 8.230544e-09,
-        "self-harm/intent": 3.701584e-09,
-        "sexual": 2.8385323e-06,
-        "sexual/minors": 3.389639e-09,
-        "violence": 0.0008701423,
-        "violence/graphic": 6.540387e-05
-      },
-      "flagged": false
-    },
-    {
-      "categories": {
-        "harassment": false,
-        "harassment/threatening": false,
-        "hate": false,
-        "hate/threatening": false,
-        "self-harm": false,
-        "self-harm/instructions": false,
-        "self-harm/intent": false,
-        "sexual": false,
-        "sexual/minors": false,
-        "violence": false,
-        "violence/graphic": false
-      },
-      "category_scores": {
-        "harassment": 8.750692e-06,
-        "harassment/threatening": 3.3981436e-07,
-        "hate": 1.3860233e-05,
-        "hate/threatening": 7.3634044e-07,
-        "self-harm": 5.912139e-08,
-        "self-harm/instructions": 6.5932604e-10,
-        "self-harm/intent": 3.4973173e-09,
-        "sexual": 6.93305e-07,
-        "sexual/minors": 4.7592533e-08,
-        "violence": 0.00046096713,
-        "violence/graphic": 8.040674e-06
-      },
-      "flagged": false
-    },
-    {
-      "categories": {
-        "harassment": false,
-        "harassment/threatening": false,
-        "hate": false,
-        "hate/threatening": false,
-        "self-harm": false,
-        "self-harm/instructions": false,
-        "self-harm/intent": false,
-        "sexual": false,
-        "sexual/minors": false,
-        "violence": false,
-        "violence/graphic": false
-      },
-      "category_scores": {
-        "harassment": 5.483292e-07,
-        "harassment/threatening": 5.6985003e-09,
-        "hate": 2.5634888e-06,
-        "hate/threatening": 9.762294e-09,
-        "self-harm": 2.6711155e-07,
-        "self-harm/instructions": 2.1952253e-09,
-        "self-harm/intent": 9.126905e-09,
-        "sexual": 1.2653095e-06,
-        "sexual/minors": 6.0330683e-09,
-        "violence": 0.0008262769,
-        "violence/graphic": 6.330304e-05
-      },
-      "flagged": false
-    },
-    {
-      "categories": {
-        "harassment": false,
-        "harassment/threatening": false,
-        "hate": false,
-        "hate/threatening": false,
-        "self-harm": false,
-        "self-harm/instructions": false,
-        "self-harm/intent": false,
-        "sexual": false,
-        "sexual/minors": false,
-        "violence": false,
-        "violence/graphic": false
-      },
-      "category_scores": {
-        "harassment": 5.5949655e-05,
-        "harassment/threatening": 3.0914484e-06,
-        "hate": 0.0002162319,
-        "hate/threatening": 5.571247e-06,
-        "self-harm": 1.4272077e-06,
-        "self-harm/instructions": 3.067854e-07,
-        "self-harm/intent": 2.3311354e-07,
-        "sexual": 3.7397874e-06,
-        "sexual/minors": 5.1365214e-07,
-        "violence": 0.0028443928,
-        "violence/graphic": 0.0005967112
-      },
-      "flagged": false
-    },
-    {
-      "categories": {
-        "harassment": false,
-        "harassment/threatening": false,
-        "hate": false,
-        "hate/threatening": false,
-        "self-harm": false,
-        "self-harm/instructions": false,
-        "self-harm/intent": false,
-        "sexual": false,
-        "sexual/minors": false,
-        "violence": false,
-        "violence/graphic": false
-      },
-      "category_scores": {
-        "harassment": 1.2777728e-06,
-        "harassment/threatening": 8.825476e-08,
-        "hate": 1.8820865e-05,
-        "hate/threatening": 3.2711839e-07,
-        "self-harm": 3.5703923e-07,
-        "self-harm/instructions": 1.0872926e-07,
-        "self-harm/intent": 2.5730868e-08,
-        "sexual": 5.43681e-06,
-        "sexual/minors": 2.335906e-08,
-        "violence": 0.0015742893,
-        "violence/graphic": 0.00016919701
-      },
-      "flagged": false
-    },
-    {
-      "categories": {
-        "harassment": false,
-        "harassment/threatening": false,
-        "hate": false,
-        "hate/threatening": false,
-        "self-harm": false,
-        "self-harm/instructions": false,
-        "self-harm/intent": false,
-        "sexual": false,
-        "sexual/minors": false,
-        "violence": false,
-        "violence/graphic": false
-      },
-      "category_scores": {
-        "harassment": 2.9760964e-05,
-        "harassment/threatening": 1.9747068e-07,
-        "hate": 1.1300927e-05,
-        "hate/threatening": 5.4068128e-08,
-        "self-harm": 6.0547436e-08,
-        "self-harm/instructions": 2.496784e-10,
-        "self-harm/intent": 2.5812155e-09,
-        "sexual": 1.4872316e-07,
-        "sexual/minors": 1.8864139e-08,
-        "violence": 0.00024345024,
-        "violence/graphic": 2.2985785e-05
-      },
-      "flagged": false
-    },
-    {
-      "categories": {
-        "harassment": false,
-        "harassment/threatening": false,
-        "hate": false,
-        "hate/threatening": false,
-        "self-harm": false,
-        "self-harm/instructions": false,
-        "self-harm/intent": false,
-        "sexual": false,
-        "sexual/minors": false,
-        "violence": false,
-        "violence/graphic": false
-      },
-      "category_scores": {
-        "harassment": 8.07096e-06,
-        "harassment/threatening": 1.7311665e-08,
-        "hate": 1.5499076e-05,
-        "hate/threatening": 1.32543905e-08,
-        "self-harm": 1.8334602e-07,
-        "self-harm/instructions": 1.08403695e-08,
-        "self-harm/intent": 1.6472342e-08,
-        "sexual": 3.8817343e-06,
-        "sexual/minors": 3.199346e-08,
-        "violence": 0.00063574174,
-        "violence/graphic": 7.656529e-05
-      },
-      "flagged": false
-    },
-    {
-      "categories": {
-        "harassment": false,
-        "harassment/threatening": false,
-        "hate": false,
-        "hate/threatening": false,
-        "self-harm": false,
-        "self-harm/instructions": false,
-        "self-harm/intent": false,
-        "sexual": false,
-        "sexual/minors": false,
-        "violence": false,
-        "violence/graphic": false
-      },
-      "category_scores": {
-        "harassment": 7.38542e-05,
-        "harassment/threatening": 1.3614626e-07,
-        "hate": 0.00011718779,
-        "hate/threatening": 8.707164e-08,
-        "self-harm": 1.0637476e-07,
-        "self-harm/instructions": 1.0538834e-09,
-        "self-harm/intent": 6.0037504e-09,
-        "sexual": 1.2846691e-06,
-        "sexual/minors": 1.0874441e-07,
-        "violence": 0.0002522288,
-        "violence/graphic": 0.00012355034
-      },
-      "flagged": false
-    },
-    {
-      "categories": {
-        "harassment": false,
-        "harassment/threatening": false,
-        "hate": false,
-        "hate/threatening": false,
-        "self-harm": false,
-        "self-harm/instructions": false,
-        "self-harm/intent": false,
-        "sexual": false,
-        "sexual/minors": false,
-        "violence": false,
-        "violence/graphic": false
-      },
-      "category_scores": {
-        "harassment": 2.1253375e-06,
-        "harassment/threatening": 2.0647747e-08,
-        "hate": 4.4412864e-06,
-        "hate/threatening": 6.5571575e-09,
-        "self-harm": 2.7133402e-07,
-        "self-harm/instructions": 4.3310915e-09,
-        "self-harm/intent": 2.462526e-08,
-        "sexual": 5.4593856e-06,
-        "sexual/minors": 4.0683755e-08,
-        "violence": 0.0014544568,
-        "violence/graphic": 2.9516224e-05
-      },
-      "flagged": false
-    },
-    {
-      "categories": {
-        "harassment": false,
-        "harassment/threatening": false,
-        "hate": false,
-        "hate/threatening": false,
-        "self-harm": false,
-        "self-harm/instructions": false,
-        "self-harm/intent": false,
-        "sexual": false,
-        "sexual/minors": false,
-        "violence": false,
-        "violence/graphic": false
-      },
-      "category_scores": {
-        "harassment": 2.3285023e-05,
-        "harassment/threatening": 5.875996e-07,
-        "hate": 6.265538e-05,
-        "hate/threatening": 1.047692e-06,
-        "self-harm": 5.116735e-08,
-        "self-harm/instructions": 1.3015187e-09,
-        "self-harm/intent": 6.11438e-09,
-        "sexual": 3.9797186e-07,
-        "sexual/minors": 9.2832884e-08,
-        "violence": 0.00047884518,
-        "violence/graphic": 4.2168598e-05
-      },
-      "flagged": false
-    },
-    {
-      "categories": {
-        "harassment": false,
-        "harassment/threatening": false,
-        "hate": false,
-        "hate/threatening": false,
-        "self-harm": false,
-        "self-harm/instructions": false,
-        "self-harm/intent": false,
-        "sexual": false,
-        "sexual/minors": false,
-        "violence": false,
-        "violence/graphic": false
-      },
-      "category_scores": {
-        "harassment": 1.579544e-07,
-        "harassment/threatening": 4.967231e-09,
-        "hate": 4.1963854e-06,
-        "hate/threatening": 1.3714807e-08,
-        "self-harm": 3.2254906e-08,
-        "self-harm/instructions": 1.4609135e-09,
-        "self-harm/intent": 2.9356986e-09,
-        "sexual": 1.166462e-06,
-        "sexual/minors": 2.2541618e-08,
-        "violence": 0.00020014873,
-        "violence/graphic": 2.4789366e-05
-      },
-      "flagged": false
-    },
-    {
-      "categories": {
-        "harassment": false,
-        "harassment/threatening": false,
-        "hate": false,
-        "hate/threatening": false,
-        "self-harm": false,
-        "self-harm/instructions": false,
-        "self-harm/intent": false,
-        "sexual": false,
-        "sexual/minors": false,
-        "violence": false,
-        "violence/graphic": false
-      },
-      "category_scores": {
-        "harassment": 2.4933706e-05,
-        "harassment/threatening": 4.6232512e-07,
-        "hate": 6.6145374e-05,
-        "hate/threatening": 1.1327407e-06,
-        "self-harm": 1.09665045e-07,
-        "self-harm/instructions": 1.5573189e-09,
-        "self-harm/intent": 1.3173814e-08,
-        "sexual": 5.669243e-08,
-        "sexual/minors": 3.6467707e-08,
-        "violence": 0.00021973747,
-        "violence/graphic": 1.4317827e-05
-      },
-      "flagged": false
-    },
-    {
-      "categories": {
-        "harassment": false,
-        "harassment/threatening": false,
-        "hate": false,
-        "hate/threatening": false,
-        "self-harm": false,
-        "self-harm/instructions": false,
-        "self-harm/intent": false,
-        "sexual": false,
-        "sexual/minors": false,
-        "violence": false,
-        "violence/graphic": false
-      },
-      "category_scores": {
-        "harassment": 1.4969248e-07,
-        "harassment/threatening": 5.270553e-09,
-        "hate": 3.8879657e-06,
-        "hate/threatening": 4.562676e-09,
-        "self-harm": 1.825729e-07,
-        "self-harm/instructions": 3.5934922e-09,
-        "self-harm/intent": 7.629233e-09,
-        "sexual": 3.1082678e-07,
-        "sexual/minors": 8.889331e-09,
-        "violence": 0.00024361185,
-        "violence/graphic": 2.4503372e-05
-      },
-      "flagged": false
-    },
-    {
-      "categories": {
-        "harassment": false,
-        "harassment/threatening": false,
-        "hate": false,
-        "hate/threatening": false,
-        "self-harm": false,
-        "self-harm/instructions": false,
-        "self-harm/intent": false,
-        "sexual": false,
-        "sexual/minors": false,
-        "violence": false,
-        "violence/graphic": false
-      },
-      "category_scores": {
-        "harassment": 4.11613e-05,
-        "harassment/threatening": 1.5300537e-05,
-        "hate": 9.384948e-05,
-        "hate/threatening": 8.099427e-06,
-        "self-harm": 5.713577e-07,
-        "self-harm/instructions": 3.105375e-08,
-        "self-harm/intent": 1.3717847e-07,
-        "sexual": 6.486355e-05,
-        "sexual/minors": 6.8320435e-07,
-        "violence": 0.0031102055,
-        "violence/graphic": 0.00071217516
-      },
-      "flagged": false
-    },
-    {
-      "categories": {
-        "harassment": false,
-        "harassment/threatening": false,
-        "hate": false,
-        "hate/threatening": false,
-        "self-harm": false,
-        "self-harm/instructions": false,
-        "self-harm/intent": false,
-        "sexual": false,
-        "sexual/minors": false,
-        "violence": false,
-        "violence/graphic": false
-      },
-      "category_scores": {
-        "harassment": 2.3105758e-07,
-        "harassment/threatening": 2.2477855e-06,
-        "hate": 5.412738e-06,
-        "hate/threatening": 1.2139039e-06,
-        "self-harm": 1.2648461e-06,
-        "self-harm/instructions": 4.3175012e-07,
-        "self-harm/intent": 5.354953e-08,
-        "sexual": 1.5410938e-05,
-        "sexual/minors": 4.4253113e-08,
-        "violence": 0.0058703036,
-        "violence/graphic": 0.0019637642
-      },
-      "flagged": false
-    },
-    {
-      "categories": {
-        "harassment": false,
-        "harassment/threatening": false,
-        "hate": false,
-        "hate/threatening": false,
-        "self-harm": false,
-        "self-harm/instructions": false,
-        "self-harm/intent": false,
-        "sexual": false,
-        "sexual/minors": false,
-        "violence": false,
-        "violence/graphic": false
-      },
-      "category_scores": {
-        "harassment": 2.5850564e-05,
-        "harassment/threatening": 1.7777302e-06,
-        "hate": 6.3631014e-05,
-        "hate/threatening": 2.2837667e-06,
-        "self-harm": 1.4153704e-07,
-        "self-harm/instructions": 2.0805353e-09,
-        "self-harm/intent": 2.7096418e-08,
-        "sexual": 4.444557e-06,
-        "sexual/minors": 1.7228282e-07,
-        "violence": 0.000734415,
-        "violence/graphic": 1.3193273e-05
-      },
-      "flagged": false
-    },
-    {
-      "categories": {
-        "harassment": false,
-        "harassment/threatening": false,
-        "hate": false,
-        "hate/threatening": false,
-        "self-harm": false,
-        "self-harm/instructions": false,
-        "self-harm/intent": false,
-        "sexual": false,
-        "sexual/minors": false,
-        "violence": false,
-        "violence/graphic": false
-      },
-      "category_scores": {
-        "harassment": 4.7090938e-07,
-        "harassment/threatening": 5.5743436e-07,
-        "hate": 1.4378706e-05,
-        "hate/threatening": 1.4131195e-06,
-        "self-harm": 6.3252364e-06,
-        "self-harm/instructions": 2.4465763e-07,
-        "self-harm/intent": 5.272979e-07,
-        "sexual": 8.293618e-06,
-        "sexual/minors": 6.719372e-08,
-        "violence": 0.0027674288,
-        "violence/graphic": 0.0006243897
-      },
-      "flagged": false
-    },
-    {
-      "categories": {
-        "harassment": false,
-        "harassment/threatening": false,
-        "hate": false,
-        "hate/threatening": false,
-        "self-harm": false,
-        "self-harm/instructions": false,
-        "self-harm/intent": false,
-        "sexual": false,
-        "sexual/minors": false,
-        "violence": false,
-        "violence/graphic": false
-      },
-      "category_scores": {
-        "harassment": 1.6116908e-05,
-        "harassment/threatening": 1.0946479e-06,
-        "hate": 6.526256e-05,
-        "hate/threatening": 3.2101643e-06,
-        "self-harm": 7.354618e-07,
-        "self-harm/instructions": 2.943099e-09,
-        "self-harm/intent": 1.3392561e-07,
-        "sexual": 3.1554775e-06,
-        "sexual/minors": 7.5717196e-07,
-        "violence": 0.0008388686,
-        "violence/graphic": 4.4885768e-05
-      },
-      "flagged": false
-    },
-    {
-      "categories": {
-        "harassment": false,
-        "harassment/threatening": false,
-        "hate": false,
-        "hate/threatening": false,
-        "self-harm": false,
-        "self-harm/instructions": false,
-        "self-harm/intent": false,
-        "sexual": false,
-        "sexual/minors": false,
-        "violence": false,
-        "violence/graphic": false
-      },
-      "category_scores": {
-        "harassment": 9.257314e-08,
-        "harassment/threatening": 5.757071e-08,
-        "hate": 7.1355216e-06,
-        "hate/threatening": 4.864112e-07,
-        "self-harm": 2.992725e-06,
-        "self-harm/instructions": 2.0609502e-08,
-        "self-harm/intent": 1.3444132e-07,
-        "sexual": 4.475202e-06,
-        "sexual/minors": 5.569715e-08,
-        "violence": 0.0008187356,
-        "violence/graphic": 0.00013839494
-      },
-      "flagged": false
-    },
-    {
-      "categories": {
-        "harassment": false,
-        "harassment/threatening": false,
-        "hate": false,
-        "hate/threatening": false,
-        "self-harm": false,
-        "self-harm/instructions": false,
-        "self-harm/intent": false,
-        "sexual": false,
-        "sexual/minors": false,
-        "violence": false,
-        "violence/graphic": false
-      },
-      "category_scores": {
-        "harassment": 0.0001804578,
-        "harassment/threatening": 2.5940055e-06,
-        "hate": 0.00013176174,
-        "hate/threatening": 6.414308e-06,
-        "self-harm": 3.5414762e-06,
-        "self-harm/instructions": 4.4058485e-08,
-        "self-harm/intent": 3.4653246e-07,
-        "sexual": 2.7669992e-05,
-        "sexual/minors": 1.6713487e-07,
-        "violence": 0.0011929201,
-        "violence/graphic": 0.0003142842
-      },
-      "flagged": false
-    },
-    {
-      "categories": {
-        "harassment": false,
-        "harassment/threatening": false,
-        "hate": false,
-        "hate/threatening": false,
-        "self-harm": false,
-        "self-harm/instructions": false,
-        "self-harm/intent": false,
-        "sexual": false,
-        "sexual/minors": false,
-        "violence": false,
-        "violence/graphic": false
-      },
-      "category_scores": {
-        "harassment": 2.6628825e-06,
-        "harassment/threatening": 2.2243626e-06,
-        "hate": 1.2866692e-05,
-        "hate/threatening": 4.505164e-06,
-        "self-harm": 1.1167852e-05,
-        "self-harm/instructions": 4.541891e-08,
-        "self-harm/intent": 4.8413244e-07,
-        "sexual": 1.3843299e-05,
-        "sexual/minors": 1.8338095e-08,
-        "violence": 0.0034291493,
-        "violence/graphic": 0.00038244136
-      },
-      "flagged": false
-    },
-    {
-      "categories": {
-        "harassment": false,
-        "harassment/threatening": false,
-        "hate": false,
-        "hate/threatening": false,
-        "self-harm": false,
-        "self-harm/instructions": false,
-        "self-harm/intent": false,
-        "sexual": false,
-        "sexual/minors": false,
-        "violence": false,
-        "violence/graphic": false
-      },
-      "category_scores": {
-        "harassment": 0.00015275799,
-        "harassment/threatening": 8.692553e-06,
-        "hate": 6.528428e-05,
-        "hate/threatening": 6.9395523e-06,
-        "self-harm": 1.965677e-07,
-        "self-harm/instructions": 3.027174e-08,
-        "self-harm/intent": 4.1611454e-08,
-        "sexual": 3.3004417e-05,
-        "sexual/minors": 1.0543937e-06,
-        "violence": 0.00033553416,
-        "violence/graphic": 4.0592062e-05
-      },
-      "flagged": false
-    },
-    {
-      "categories": {
-        "harassment": false,
-        "harassment/threatening": false,
-        "hate": false,
-        "hate/threatening": false,
-        "self-harm": false,
-        "self-harm/instructions": false,
-        "self-harm/intent": false,
-        "sexual": false,
-        "sexual/minors": false,
-        "violence": false,
-        "violence/graphic": false
-      },
-      "category_scores": {
-        "harassment": 1.226133e-07,
-        "harassment/threatening": 5.051758e-07,
-        "hate": 4.587838e-06,
-        "hate/threatening": 2.259193e-06,
-        "self-harm": 2.7939468e-06,
-        "self-harm/instructions": 1.6000742e-07,
-        "self-harm/intent": 4.9878537e-08,
-        "sexual": 7.4544914e-06,
-        "sexual/minors": 3.926004e-08,
-        "violence": 0.0023568964,
-        "violence/graphic": 0.00038843625
-      },
-      "flagged": false
-    },
-    {
-      "categories": {
-        "harassment": false,
-        "harassment/threatening": false,
-        "hate": false,
-        "hate/threatening": false,
-        "self-harm": false,
-        "self-harm/instructions": false,
-        "self-harm/intent": false,
-        "sexual": false,
-        "sexual/minors": false,
-        "violence": false,
-        "violence/graphic": false
-      },
-      "category_scores": {
-        "harassment": 0.00012801368,
-        "harassment/threatening": 3.698273e-06,
-        "hate": 0.00010059115,
-        "hate/threatening": 1.2181716e-06,
-        "self-harm": 2.3969682e-07,
-        "self-harm/instructions": 8.856516e-09,
-        "self-harm/intent": 2.2220817e-08,
-        "sexual": 1.558684e-05,
-        "sexual/minors": 2.7157918e-07,
-        "violence": 7.9242105e-05,
-        "violence/graphic": 1.2300859e-05
-      },
-      "flagged": false
-    },
-    {
-      "categories": {
-        "harassment": false,
-        "harassment/threatening": false,
-        "hate": false,
-        "hate/threatening": false,
-        "self-harm": false,
-        "self-harm/instructions": false,
-        "self-harm/intent": false,
-        "sexual": false,
-        "sexual/minors": false,
-        "violence": false,
-        "violence/graphic": false
-      },
-      "category_scores": {
-        "harassment": 4.010775e-07,
-        "harassment/threatening": 1.3520806e-06,
-        "hate": 8.746872e-06,
-        "hate/threatening": 5.6935337e-06,
-        "self-harm": 8.472345e-06,
-        "self-harm/instructions": 2.3793243e-07,
-        "self-harm/intent": 1.3069679e-07,
-        "sexual": 5.4064883e-05,
-        "sexual/minors": 1.4669222e-07,
-        "violence": 0.0048350394,
-        "violence/graphic": 0.0010345737
-      },
-      "flagged": false
-    },
-    {
-      "categories": {
-        "harassment": false,
-        "harassment/threatening": false,
-        "hate": false,
-        "hate/threatening": false,
-        "self-harm": false,
-        "self-harm/instructions": false,
-        "self-harm/intent": false,
-        "sexual": false,
-        "sexual/minors": false,
-        "violence": false,
-        "violence/graphic": false
-      },
-      "category_scores": {
-        "harassment": 0.00010160609,
-        "harassment/threatening": 1.3295797e-05,
-        "hate": 0.00011947501,
-        "hate/threatening": 2.8189605e-05,
-        "self-harm": 4.4465583e-06,
-        "self-harm/instructions": 5.1824486e-07,
-        "self-harm/intent": 3.1192656e-06,
-        "sexual": 1.1986626e-05,
-        "sexual/minors": 2.74705e-07,
-        "violence": 0.00063671375,
-        "violence/graphic": 4.6830624e-05
-      },
-      "flagged": false
-    },
-    {
-      "categories": {
-        "harassment": false,
-        "harassment/threatening": false,
-        "hate": false,
-        "hate/threatening": false,
-        "self-harm": false,
-        "self-harm/instructions": false,
-        "self-harm/intent": false,
-        "sexual": false,
-        "sexual/minors": false,
-        "violence": false,
-        "violence/graphic": false
-      },
-      "category_scores": {
-        "harassment": 1.00726865e-07,
-        "harassment/threatening": 3.582466e-07,
-        "hate": 6.662455e-06,
-        "hate/threatening": 1.3513678e-06,
-        "self-harm": 1.8406306e-06,
-        "self-harm/instructions": 5.5651387e-08,
-        "self-harm/intent": 9.357883e-08,
-        "sexual": 1.22351685e-05,
-        "sexual/minors": 7.566762e-08,
-        "violence": 0.0007510619,
-        "violence/graphic": 0.000171477
-      },
-      "flagged": false
-    },
-    {
-      "categories": {
-        "harassment": false,
-        "harassment/threatening": false,
-        "hate": false,
-        "hate/threatening": false,
-        "self-harm": false,
-        "self-harm/instructions": false,
-        "self-harm/intent": false,
-        "sexual": false,
-        "sexual/minors": false,
-        "violence": false,
-        "violence/graphic": false
-      },
-      "category_scores": {
-        "harassment": 5.0100083e-05,
-        "harassment/threatening": 3.8601534e-06,
-        "hate": 0.00017013273,
-        "hate/threatening": 5.4843504e-06,
-        "self-harm": 5.230687e-07,
-        "self-harm/instructions": 2.7797832e-08,
-        "self-harm/intent": 4.334986e-08,
-        "sexual": 2.9683386e-05,
-        "sexual/minors": 4.9351297e-07,
-        "violence": 0.00046621528,
-        "violence/graphic": 7.1694965e-05
-      },
-      "flagged": false
-    },
-    {
-      "categories": {
-        "harassment": false,
-        "harassment/threatening": false,
-        "hate": false,
-        "hate/threatening": false,
-        "self-harm": false,
-        "self-harm/instructions": false,
-        "self-harm/intent": false,
-        "sexual": false,
-        "sexual/minors": false,
-        "violence": false,
-        "violence/graphic": false
-      },
-      "category_scores": {
-        "harassment": 1.5276214e-07,
-        "harassment/threatening": 6.3428234e-07,
-        "hate": 1.9672798e-06,
-        "hate/threatening": 1.0484996e-06,
-        "self-harm": 4.1957787e-07,
-        "self-harm/instructions": 1.1224102e-08,
-        "self-harm/intent": 5.283779e-09,
-        "sexual": 3.681403e-05,
-        "sexual/minors": 4.5979988e-08,
-        "violence": 0.0039422843,
-        "violence/graphic": 0.00030973103
-      },
-      "flagged": false
-    },
-    {
-      "categories": {
-        "harassment": false,
-        "harassment/threatening": false,
-        "hate": false,
-        "hate/threatening": false,
-        "self-harm": false,
-        "self-harm/instructions": false,
-        "self-harm/intent": false,
-        "sexual": false,
-        "sexual/minors": false,
-        "violence": false,
-        "violence/graphic": false
-      },
-      "category_scores": {
-        "harassment": 2.2447102e-05,
-        "harassment/threatening": 1.13440965e-05,
-        "hate": 6.240208e-05,
-        "hate/threatening": 4.1056323e-06,
-        "self-harm": 2.44092e-07,
-        "self-harm/instructions": 1.3741857e-08,
-        "self-harm/intent": 1.823701e-08,
-        "sexual": 1.7213062e-05,
-        "sexual/minors": 1.4406719e-07,
-        "violence": 0.0017139054,
-        "violence/graphic": 0.00022751794
-      },
-      "flagged": false
-    },
-    {
-      "categories": {
-        "harassment": false,
-        "harassment/threatening": false,
-        "hate": false,
-        "hate/threatening": false,
-        "self-harm": false,
-        "self-harm/instructions": false,
-        "self-harm/intent": false,
-        "sexual": false,
-        "sexual/minors": false,
-        "violence": false,
-        "violence/graphic": false
-      },
-      "category_scores": {
-        "harassment": 2.699989e-08,
-        "harassment/threatening": 3.161838e-07,
-        "hate": 5.111512e-07,
-        "hate/threatening": 1.4205578e-07,
-        "self-harm": 1.4487746e-07,
-        "self-harm/instructions": 1.7430311e-08,
-        "self-harm/intent": 2.408267e-09,
-        "sexual": 6.629547e-05,
-        "sexual/minors": 3.0060637e-08,
-        "violence": 0.0033156516,
-        "violence/graphic": 0.00020930474
-      },
-      "flagged": false
-    },
-    {
-      "categories": {
-        "harassment": false,
-        "harassment/threatening": false,
-        "hate": false,
-        "hate/threatening": false,
-        "self-harm": false,
-        "self-harm/instructions": false,
-        "self-harm/intent": false,
-        "sexual": false,
-        "sexual/minors": false,
-        "violence": false,
-        "violence/graphic": false
-      },
-      "category_scores": {
-        "harassment": 6.1562125e-05,
-        "harassment/threatening": 7.821324e-06,
-        "hate": 0.00010598801,
-        "hate/threatening": 6.6314947e-06,
-        "self-harm": 2.535639e-07,
-        "self-harm/instructions": 9.803027e-09,
-        "self-harm/intent": 4.449526e-08,
-        "sexual": 5.5366458e-05,
-        "sexual/minors": 1.9787576e-06,
-        "violence": 0.0006598951,
-        "violence/graphic": 1.2599724e-05
-      },
-      "flagged": false
-    },
-    {
-      "categories": {
-        "harassment": false,
-        "harassment/threatening": false,
-        "hate": false,
-        "hate/threatening": false,
-        "self-harm": false,
-        "self-harm/instructions": false,
-        "self-harm/intent": false,
-        "sexual": false,
-        "sexual/minors": false,
-        "violence": false,
-        "violence/graphic": false
-      },
-      "category_scores": {
-        "harassment": 1.7936667e-07,
-        "harassment/threatening": 3.5252503e-07,
-        "hate": 1.9661936e-06,
-        "hate/threatening": 2.8403278e-07,
-        "self-harm": 1.5337893e-06,
-        "self-harm/instructions": 1.8872704e-08,
-        "self-harm/intent": 3.902442e-08,
-        "sexual": 4.6454723e-05,
-        "sexual/minors": 5.9519543e-08,
-        "violence": 0.0021644887,
-        "violence/graphic": 0.000295888
-      },
-      "flagged": false
-    },
-    {
-      "categories": {
-        "harassment": false,
-        "harassment/threatening": false,
-        "hate": false,
-        "hate/threatening": false,
-        "self-harm": false,
-        "self-harm/instructions": false,
-        "self-harm/intent": false,
-        "sexual": false,
-        "sexual/minors": false,
-        "violence": false,
-        "violence/graphic": false
-      },
-      "category_scores": {
-        "harassment": 7.823963e-05,
-        "harassment/threatening": 1.4059471e-05,
-        "hate": 0.00023034107,
-        "hate/threatening": 2.4624198e-05,
-        "self-harm": 6.1742384e-07,
-        "self-harm/instructions": 1.0333206e-08,
-        "self-harm/intent": 1.7578314e-08,
-        "sexual": 1.2266128e-05,
-        "sexual/minors": 3.1499047e-07,
-        "violence": 0.0013056594,
-        "violence/graphic": 0.00017265188
-      },
-      "flagged": false
-    },
-    {
-      "categories": {
-        "harassment": false,
-        "harassment/threatening": false,
-        "hate": false,
-        "hate/threatening": false,
-        "self-harm": false,
-        "self-harm/instructions": false,
-        "self-harm/intent": false,
-        "sexual": false,
-        "sexual/minors": false,
-        "violence": false,
-        "violence/graphic": false
-      },
-      "category_scores": {
-        "harassment": 2.13986e-07,
-        "harassment/threatening": 5.228502e-07,
-        "hate": 1.9824693e-06,
-        "hate/threatening": 6.812654e-07,
-        "self-harm": 4.4932426e-07,
-        "self-harm/instructions": 2.2505005e-09,
-        "self-harm/intent": 9.81494e-10,
-        "sexual": 2.9145136e-05,
-        "sexual/minors": 3.5866464e-08,
-        "violence": 0.002874106,
-        "violence/graphic": 0.00012822026
-      },
-      "flagged": false
-    },
-    {
-      "categories": {
-        "harassment": false,
-        "harassment/threatening": false,
-        "hate": false,
-        "hate/threatening": false,
-        "self-harm": false,
-        "self-harm/instructions": false,
-        "self-harm/intent": false,
-        "sexual": false,
-        "sexual/minors": false,
-        "violence": false,
-        "violence/graphic": false
-      },
-      "category_scores": {
-        "harassment": 0.00019834224,
-        "harassment/threatening": 1.2940242e-05,
-        "hate": 0.0002894803,
-        "hate/threatening": 6.6986872e-06,
-        "self-harm": 1.4839051e-07,
-        "self-harm/instructions": 6.8587873e-09,
-        "self-harm/intent": 1.2757155e-08,
-        "sexual": 1.9799314e-05,
-        "sexual/minors": 1.8250222e-07,
-        "violence": 0.0009367588,
-        "violence/graphic": 5.07475e-05
-      },
-      "flagged": false
-    },
-    {
-      "categories": {
-        "harassment": false,
-        "harassment/threatening": false,
-        "hate": false,
-        "hate/threatening": false,
-        "self-harm": false,
-        "self-harm/instructions": false,
-        "self-harm/intent": false,
-        "sexual": false,
-        "sexual/minors": false,
-        "violence": false,
-        "violence/graphic": false
-      },
-      "category_scores": {
-        "harassment": 2.598482e-07,
-        "harassment/threatening": 4.3491195e-07,
-        "hate": 4.453918e-06,
-        "hate/threatening": 4.2028515e-07,
-        "self-harm": 6.7636044e-08,
-        "self-harm/instructions": 1.4562842e-09,
-        "self-harm/intent": 4.5911236e-10,
-        "sexual": 2.6712361e-05,
-        "sexual/minors": 4.1019348e-08,
-        "violence": 0.0015713777,
-        "violence/graphic": 9.143992e-05
-      },
-      "flagged": false
-    },
-    {
-      "categories": {
-        "harassment": false,
-        "harassment/threatening": false,
-        "hate": false,
-        "hate/threatening": false,
-        "self-harm": false,
-        "self-harm/instructions": false,
-        "self-harm/intent": false,
-        "sexual": false,
-        "sexual/minors": false,
-        "violence": false,
-        "violence/graphic": false
-      },
-      "category_scores": {
-        "harassment": 1.3961001e-05,
-        "harassment/threatening": 3.1720238e-06,
-        "hate": 3.3607594e-05,
-        "hate/threatening": 3.5361031e-06,
-        "self-harm": 2.5671912e-05,
-        "self-harm/instructions": 2.2823635e-07,
-        "self-harm/intent": 4.3212425e-05,
-        "sexual": 0.00023822191,
-        "sexual/minors": 1.1768062e-06,
-        "violence": 0.0010414039,
-        "violence/graphic": 0.0002982893
-      },
-      "flagged": false
-    },
-    {
-      "categories": {
-        "harassment": false,
-        "harassment/threatening": false,
-        "hate": false,
-        "hate/threatening": false,
-        "self-harm": false,
-        "self-harm/instructions": false,
-        "self-harm/intent": false,
-        "sexual": false,
-        "sexual/minors": false,
-        "violence": false,
-        "violence/graphic": false
-      },
-      "category_scores": {
-        "harassment": 1.7229909e-06,
-        "harassment/threatening": 3.045664e-07,
-        "hate": 3.3687105e-05,
-        "hate/threatening": 1.2582647e-05,
-        "self-harm": 1.5264523e-05,
-        "self-harm/instructions": 3.4472005e-06,
-        "self-harm/intent": 6.1851515e-06,
-        "sexual": 0.0001678871,
-        "sexual/minors": 2.0533642e-07,
-        "violence": 0.0020067436,
-        "violence/graphic": 0.0009493401
-      },
-      "flagged": false
-    },
-    {
-      "categories": {
-        "harassment": false,
-        "harassment/threatening": false,
-        "hate": false,
-        "hate/threatening": false,
-        "self-harm": false,
-        "self-harm/instructions": false,
-        "self-harm/intent": false,
-        "sexual": false,
-        "sexual/minors": false,
-        "violence": false,
-        "violence/graphic": false
-      },
-      "category_scores": {
-        "harassment": 1.1301368e-05,
-        "harassment/threatening": 5.3121894e-06,
-        "hate": 5.231604e-05,
-        "hate/threatening": 1.8017121e-06,
-        "self-harm": 8.283421e-06,
-        "self-harm/instructions": 4.0778144e-08,
-        "self-harm/intent": 7.2653995e-07,
-        "sexual": 2.1208456e-05,
-        "sexual/minors": 1.3133531e-06,
-        "violence": 0.0030549862,
-        "violence/graphic": 0.00029682662
-      },
-      "flagged": false
-    },
-    {
-      "categories": {
-        "harassment": false,
-        "harassment/threatening": false,
-        "hate": false,
-        "hate/threatening": false,
-        "self-harm": false,
-        "self-harm/instructions": false,
-        "self-harm/intent": false,
-        "sexual": false,
-        "sexual/minors": false,
-        "violence": false,
-        "violence/graphic": false
-      },
-      "category_scores": {
-        "harassment": 1.1764046e-06,
-        "harassment/threatening": 1.0339427e-06,
-        "hate": 1.5493373e-06,
-        "hate/threatening": 1.7375845e-06,
-        "self-harm": 4.4277862e-05,
-        "self-harm/instructions": 2.9585615e-06,
-        "self-harm/intent": 1.1389563e-06,
-        "sexual": 1.5395924e-05,
-        "sexual/minors": 1.0317888e-07,
-        "violence": 0.008770138,
-        "violence/graphic": 0.0058066957
-      },
-      "flagged": false
-    }
-  ],
-  "redacted": false
-}
+]

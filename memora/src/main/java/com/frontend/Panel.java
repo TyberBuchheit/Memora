@@ -2,6 +2,8 @@ package com.frontend;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.MouseWheelEvent;
+import java.awt.event.MouseWheelListener;
 import java.awt.geom.AffineTransform;
 import java.awt.image.BufferedImage;
 import java.util.ArrayList;
@@ -10,10 +12,10 @@ import java.awt.Dimension;
 import java.awt.Font;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
-import java.awt.TextArea;
-import java.awt.color.*;
+import javax.swing.ImageIcon;
 
 import javax.imageio.ImageIO;
+import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextArea;
 import javax.swing.Timer;
@@ -23,11 +25,11 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.networking.client.Client;
 import com.util.SimpleButton;
 
-public class Panel extends JPanel implements ActionListener {
+public class Panel extends JPanel implements ActionListener, MouseWheelListener {
 
     private ArrayList<SimpleButton> buttons = new ArrayList<>();
     private ArrayList<Bubble> bubbles = new ArrayList<>();
-
+    private static ArrayList<Response> responses = new ArrayList<>();
     private JTextArea promptArea = new JTextArea();
     private AffineTransform spec = new AffineTransform();
 
@@ -37,6 +39,7 @@ public class Panel extends JPanel implements ActionListener {
         buttons.add(button);
         addMouseListener(button);
         addMouseMotionListener(button);
+
     }
 
     public void addBubble(Bubble bubble) {
@@ -48,14 +51,29 @@ public class Panel extends JPanel implements ActionListener {
     private double iscaleX, iscaleY;
 
     private static BufferedImage mainImage;
-    private static Panel me;
+    private static BufferedImage topImage;
 
-    public Panel(Client client){
-        me = this;
+    private static JPanel me;
+
+
+    private JPanel pan = new JPanel();
+
+    public Panel(Client client) {
+        me = pan;
         try {
+            setLayout(null);
+            setBounds(0,0, (int) Main.screenSize.getWidth(), (int) Main.screenSize.getHeight());
+            // setSize(Main.screenSize);
+            pan.setBounds(350, 100, 1200, 650);
+            pan.setBackground(new Color(0,0,0,0));
+
             customFont = Font.createFont(Font.TRUETYPE_FONT, Panel.class.getResourceAsStream("/fonts/f.otf"))
                     .deriveFont(40f);
+
             mainImage = ImageIO.read(getClass().getResourceAsStream("/im/mem.png"));
+
+            add(pan);
+
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -82,12 +100,17 @@ public class Panel extends JPanel implements ActionListener {
         g2.drawImage(mainImage, spec, null);
 
         g2.drawRect((int) (700 * scaleX), (int) (1350 * scaleY), (int) (1300 * scaleX), (int) (100 * scaleY));
-        for (Bubble bubble : bubbles) {
-            // bubble.scroll(true);
-        }
+
+        g2.drawImage(topImage, spec, null);
+        // g2.drawImage(topImage, spec, null);
+
         // for (SimpleButton button : buttons) {
         // button.draw(g2);
         // }
+
+    }
+
+    public void drawFront(Graphics2D g2) {
 
     }
 
@@ -108,7 +131,9 @@ public class Panel extends JPanel implements ActionListener {
                     evt.consume();
                     String text = promptArea.getText().trim();
                     if (!text.isEmpty()) {
-                        addBubble(new Bubble(text));
+                        Bubble bub = new Bubble(text);
+                        bubbles.add(bub);
+                        pan.add(bub);
                         promptArea.setText("");
                         try {
                             client.sendPrompt(text);
@@ -127,53 +152,38 @@ public class Panel extends JPanel implements ActionListener {
         promptArea.setWrapStyleWord(true);
         promptArea.setLineWrap(true);
         add(promptArea);
-
+        addMouseWheelListener(this);
         // start repaint timer after components and resources are initialized
         Timer t = new Timer(33, this);
         t.start();
     }
 
     public static void drawResponse(String response) {
-        JTextArea temp = new JTextArea(response);
+        Response res = new Response(response);
+        responses.add(res);
 
-        temp.setLineWrap(true);
-        temp.setBackground(new Color(0,0,0,0));
-        temp.setText(response);
-        temp.setFont(Panel.customFont.deriveFont(30f));
-        temp.setBounds(500, Bubble.statY, 10, 10);
-        temp.setEditable(false);
-        temp.setWrapStyleWord(true);
-        // temp.setForeground(Color.WHITE);
-        // temp.setSize(500, Short.MAX_VALUE);
-        resizeToFit(temp);
-        
-        
-        // g2.setColor(Color.GRAY);
+        me.add(res);
 
     }
 
-    private static void resizeToFit(JTextArea area) {
-         int width, height, x = 400, y = Bubble.statY, maxWidth = 700;
-        FontMetrics fm = area.getFontMetrics(area.getFont());
-        String text = area.getText().isEmpty() ? " " : area.getText();
-
-        int textWidth = fm.stringWidth(text);
-
-        width = Math.min(textWidth + 10, maxWidth);
-
-        area.setBounds(x, y, width, Short.MAX_VALUE);
-        height = area.getPreferredSize().height;
-
-        area.setBounds(x, y, width, height);
-
-        area.setPreferredSize(new Dimension(width, height));
-
-        area.revalidate();
-        me.add(area);
-        Bubble.statY += height + 60;
-    }
     @Override
     public void actionPerformed(ActionEvent e) {
         repaint();
+        for (Bubble bubble : bubbles) {
+            bubble.update();
+        }
+        for (Response response : responses) {
+            response.update();
+        }
+    }
+
+    @Override
+    public void mouseWheelMoved(MouseWheelEvent e) {
+        int notches = e.getWheelRotation();
+        if (notches < 0) {
+            Bubble.scrollY += 20;
+        } else {
+            Bubble.scrollY -= 20;
+        }
     }
 }
