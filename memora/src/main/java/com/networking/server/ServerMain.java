@@ -4,8 +4,6 @@ import java.io.IOException;
 import java.net.ServerSocket;
 import java.util.ArrayList;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.networking.ClientInfo;
 
 public class ServerMain {
 
@@ -19,8 +17,8 @@ public class ServerMain {
         try {
             serverSocket = new ServerSocket(PORT);
             System.out.println("Server started on port " + PORT);
-            ClientInfo clientInfo = new ClientInfo("Server", 0);
-            System.out.println(new ObjectMapper().writeValueAsString(clientInfo));
+           // ClientInfo clientInfo = new ClientInfo("Server", 0);
+          //  System.out.println(new ObjectMapper().writeValueAsString(clientInfo));
 
             while (true) {
                 
@@ -37,7 +35,7 @@ public class ServerMain {
 
     public void handleClient(ServerClient client) {
         clients.add(client);
-        System.out.println("Welcome to the server! Your ID is: " + client.clientInfo.getID()+" and you are of type: " + client.clientInfo.getClientType());        
+      //  System.out.println("Welcome to the server! Your ID is: " + client.clientInfo.getID()+" and you are of type: " + client.clientInfo.getClientType());        
     }
     public static void main(String[] args) {
         new ServerMain();

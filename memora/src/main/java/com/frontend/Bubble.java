@@ -10,13 +10,15 @@ import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.RenderingHints;
 
-public class Bubble extends JTextArea {
-    static int statY = 200-100;
-    static int actY = 200;
-    private int width, height, x = 1100-350, y;
+public class Bubble extends JTextArea implements Cloneable{
+    // static int statY = 200-100;
+   // static int actY = 200;
+    private static final int x = 1100-300;
+
+    private int width, height, y;
     private static final int maxWidth = 200;
 
-    public static int scrollY = 0;
+    // public static int scrollY = 0;
 
     public Bubble(String text) {
         super(text);
@@ -27,20 +29,52 @@ public class Bubble extends JTextArea {
         setMargin(new Insets(8,8,8,8));
         setForeground(Color.WHITE);
         setText(text);
-        setFont(Panel.customFont.deriveFont(25f));
+        setFont(Panel.customFont.deriveFont(35f));
         setEditable(false);
         setWrapStyleWord(true);
 
-        y = statY;
+        y = Panel.pans.get(Panel.panIndex).statY;
 
         resizeToFit();
-        statY += height;
+        Panel.pans.get(Panel.panIndex).statY += height;
+
+        System.out.println("x: "+x+" y: "+y+" w: "+width+" height: "+height);
 
     }
 
+        public Bubble(Bubble b) {
+        super(b.getText());
+
+
+        setLineWrap(true);
+        setBackground(new Color(0,0,0,0));
+        setOpaque(false);
+        setMargin(new Insets(8,8,8,8));
+        setForeground(Color.WHITE);
+        setText(b.getText());
+        setFont(Panel.customFont.deriveFont(35f));
+        setEditable(false);
+        setWrapStyleWord(true);
+
+        // y = b.newy+(b.y-newy);
+        // y=b.y+Panel.pans.get(Panel.panIndex).scrollY+Panel.pans.get(Panel.panIndex).scrollY;
+        y = Panel.pans.get(Panel.panIndex).statY;
+
+        width = b.width;
+        height = b.height;
+       
+        System.out.println("x: "+x+" y: "+y+" w: "+width+" height: "+height);
+
+        // resizeToFit();
+        // Panel.pans.get(Panel.panIndex).statY += height;
+
+
+    }
+    private int newy;
     public void update() {
         // always use our stored x value; other components shouldn't be able to shift us
-        setLocation(x, y + Bubble.scrollY);
+        newy = y + Panel.pans.get(Panel.panIndex).scrollY;
+        setLocation(x, newy);
     }
 
     public void scroll(boolean up) {
@@ -58,7 +92,6 @@ public class Bubble extends JTextArea {
         int hPad = m.left + m.right + 6;
         width = Math.min(textWidth + hPad, maxWidth);
 
-        // keep x constant when sizing
         setBounds(x, y, width, Short.MAX_VALUE);
         height = getPreferredSize().height;
 
@@ -67,17 +100,6 @@ public class Bubble extends JTextArea {
         setPreferredSize(new Dimension(width, height));
 
         revalidate();
-    }
-
-    // protect the horizontal position – we'll always use the fixed x value
-    @Override
-    public void setLocation(int xxx, int yyy) {
-        super.setLocation(x, yyy);
-    }
-
-    @Override
-    public void setBounds(int xxx, int yyy, int w, int h) {
-        super.setBounds(x, yyy, w, h);
     }
 
 
