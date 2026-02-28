@@ -34,24 +34,26 @@ public class Panel extends JPanel implements ActionListener {
     }
 
     private double scaleX, scaleY;
+    private double iscaleX, iscaleY;
+
     private static BufferedImage mainImage;
 
     public Panel() {
-        initGraphics();
-
         try {
-            customFont = Font.createFont(Font.TRUETYPE_FONT,Panel.class.getResourceAsStream("/fonts/f.otf")).deriveFont(90f);
+            customFont = Font.createFont(Font.TRUETYPE_FONT,Panel.class.getResourceAsStream("/fonts/f.otf")).deriveFont(40f);
             // customFont = new Font("Arial", Font.PLAIN, 90);
             mainImage = ImageIO.read(getClass().getResourceAsStream("/im/mem.png"));
         } catch (Exception e) {
             e.printStackTrace();
         }
 
+        iscaleX = Main.screenSize.getWidth()  / mainImage.getWidth();
+        iscaleY = Main.screenSize.getHeight() / mainImage.getHeight();
 
-        scaleX = Main.screenSize.getWidth() / mainImage.getWidth();
-        scaleY = Main.screenSize.getHeight() / mainImage.getHeight();
+        scaleX = Main.screenSize.getWidth() /2560;
+        scaleY = Main.screenSize.getHeight() /1600;
 
-
+        initGraphics();
     }
 
     @Override
@@ -62,11 +64,11 @@ public class Panel extends JPanel implements ActionListener {
         
         spec.translate(0, 0);
 
-        spec.scale(scaleX, scaleY);
+        spec.scale(iscaleX, iscaleY);
  
         g2.drawImage(mainImage, spec, null);
 
-         //g2.drawRect(700, 1400, 1000, 100);
+        g2.drawRect((int)(700*scaleX), (int)(1350*scaleY), (int)(1300*scaleX), (int)(100*scaleY));
         // for (SimpleButton button : buttons) {
         //     button.draw(g2);
         // }
@@ -77,16 +79,21 @@ public class Panel extends JPanel implements ActionListener {
 
         setLayout(null);
 
-        promptArea.setBounds((int)(700*scaleX), (int)(1400*scaleY), (int)(1000*scaleX), (int)(100*scaleY));
+        promptArea.setBounds((int)(700*scaleX), (int)(1350*scaleY), (int)(1300*scaleX), (int)(100*scaleY));
+        promptArea.setOpaque(false);
         promptArea.setBackground(new Color(0, 0, 0, 0));
-    
-        promptArea.setFont(customFont);
+        promptArea.setForeground(Color.WHITE);
         promptArea.setCaretColor(Color.WHITE);
+
+        if (customFont != null) {
+            promptArea.setFont(customFont);
+        }
         // promptArea.setEditable(false);
         promptArea.setWrapStyleWord(true);
         promptArea.setLineWrap(true);        
         add(promptArea);
 
+        // start repaint timer after components and resources are initialized
         Timer t = new Timer(33, this);
         t.start();
     }

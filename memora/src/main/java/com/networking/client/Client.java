@@ -5,10 +5,12 @@ import java.io.BufferedOutputStream;
 import java.io.IOException;
 import java.net.Socket;
 import java.net.UnknownHostException;
+import java.util.HashMap;
 import java.util.Scanner;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.networking.ClientInfo;
+import com.networking.Packet;
 
 public class Client {
 
@@ -42,7 +44,14 @@ public class Client {
             if(message.equalsIgnoreCase("exit")) {
                 break;
             }
-            send(message);
+            Packet p = new Packet("prompt", new HashMap<>(){
+                {
+                    put("conv_id", "1234");
+                    put("prompt", message);
+
+                }
+            });
+            send(mapper.writeValueAsString(p));
         }
         scanner.close();
     }
@@ -50,6 +59,7 @@ public class Client {
         
 
         try {
+
             os.write(message.getBytes());
             os.flush();
 

@@ -1,8 +1,9 @@
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
+
 import socket
 from threading import Thread
 from Modules.handle_input import handle_context, handle_prompt
+from Modules.groq_client import get_response
+
 import json
 
 
@@ -38,14 +39,4 @@ if(__name__ == "__main__"):
     start_reciever()
 
 
-    while True:
-        message = input()
-        send(message)
-=======
-from Modules.groq_client import get_response
 
->>>>>>> Stashed changes
-=======
-from Modules.groq_client import get_response
-
->>>>>>> Stashed changes

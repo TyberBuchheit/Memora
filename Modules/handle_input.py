@@ -13,6 +13,8 @@ def handle_context(data: dict):
 LIMIT = 10 # number of previous messages to send as context
 DEFAULT_USER = "user"
 def handle_prompt(data: dict):
+    print("Handling prompt: ", data)
+    data = data.get("data")
     conv_id = data.get("conv_id")
     prompt = data.get("prompt")
     user = DEFAULT_USER # We're only doing one user for now, but it's as easy as adding a user field later on
@@ -20,9 +22,10 @@ def handle_prompt(data: dict):
         messages = os.path.join(f"users/{user}/conversations/{conv_id}/", f"context.json")
     except Exception as e:
         print(f"Error loading conversation history: {e}")
-        messages = []
+    messages = []
     messages.append({"role": "user", "content": prompt})
     messages = messages[-LIMIT:]
+    print("Messages being sent to model: ", messages)
     response = get_response(messages)
     return response
 

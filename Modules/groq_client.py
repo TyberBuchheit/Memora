@@ -11,7 +11,7 @@ def get_response(messages):
     response = client.chat.completions.create(
         messages=messages,
         model="openai/gpt-oss-20b",
-        stream=True
+        # stream=True
     )
     return response.choices[0].message.content
 
