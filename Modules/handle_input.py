@@ -16,6 +16,8 @@ def handle_context(data: dict):
 # If it does exist, it will embed the prompt to the specified conversation collection, and then generate a streamed response, sending the response back to the client as it is generated using the chunk data format
 
 def handle_prompt(data: dict):
+    print("Handling prompt: ", data)
+    data = data.get("data")
     conv_id = data.get("conv_id")
     prompt = data.get("prompt")
     user = DEFAULT_USER # We're only doing one user for now, but it's as easy as adding a user field later on
@@ -27,6 +29,7 @@ def handle_prompt(data: dict):
         history = raw.get("conversation", [])
     except FileNotFoundError as e:
         print(f"Error loading conversation history: {e}")
+<<<<<<< HEAD
         history = []
 
     # Get memory summary from the similarity search + summarization endpoint
@@ -51,6 +54,12 @@ def handle_prompt(data: dict):
     messages += history[-LIMIT:]
     messages.append({"role": "user", "content": prompt})
 
+=======
+    messages = []
+    messages.append({"role": "user", "content": prompt})
+    messages = messages[-LIMIT:]
+    print("Messages being sent to model: ", messages)
+>>>>>>> 90de1c3181e522e899d4f1b4bbbcbab387b81519
     response = get_response(messages)
     return response
 

@@ -5,27 +5,27 @@ import java.io.BufferedOutputStream;
 import java.io.IOException;
 import java.net.Socket;
 import java.net.UnknownHostException;
+import java.util.HashMap;
 import java.util.Scanner;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.frontend.Panel;
 import com.networking.ClientInfo;
+import com.networking.Packet;
 
 public class Client {
 
-
-
     private BufferedInputStream is;
-    private BufferedOutputStream  os;
-
-
+    private BufferedOutputStream os;
 
     private ClientInfo myInfo;
     private static ObjectMapper mapper = new ObjectMapper();
     private Socket socket;
-    private static final String IPADDRESS= "localhost";
+    private static final String IPADDRESS = "localhost";
     private static final int PORT = 8087;
 
-    public Client() throws UnknownHostException, IOException{
+    public Client() throws UnknownHostException, IOException {
         socket = new Socket(IPADDRESS, PORT);
 
         is = new BufferedInputStream(socket.getInputStream());
@@ -35,21 +35,31 @@ public class Client {
         send(mapper.writeValueAsString(myInfo));
 
         receive();
-            Scanner scanner = new Scanner(System.in);
+        // Scanner scanner = new Scanner(System.in);
 
-        while(true){
-            String message = scanner.nextLine();
-            if(message.equalsIgnoreCase("exit")) {
-                break;
-            }
-            send(message);
-        }
-        scanner.close();
+        // String message = scanner.nextLine();
+        // if(message.equalsIgnoreCase("exit")) {
+        // break;
+        // }
+
+        // scanner.close();
     }
+
+    public void sendPrompt(String prompt) throws JsonProcessingException {
+        Packet p = new Packet("prompt", new HashMap<>() {
+            {
+                put("conv_id", "1234");
+                put("prompt", prompt);
+
+            }
+        });
+        send(mapper.writeValueAsString(p));
+    }
+
     public void send(String message) {
-        
 
         try {
+
             os.write(message.getBytes());
             os.flush();
 
@@ -60,11 +70,10 @@ public class Client {
     }
 
     public void receive() {
-        
 
-        new Thread(()->{
+        new Thread(() -> {
 
-            while(true) {
+            while (true) {
                 try {
                     byte[] buffer = new byte[1024];
                     int bytesRead = is.read(buffer);
@@ -74,6 +83,17 @@ public class Client {
                     }
                     String message = new String(buffer, 0, bytesRead);
                     System.out.println("Received: " + message);
+
+                    Packet pack = mapper.readValue(message, Packet.class);
+                    switch (pack.getType()) {
+                        case "response":
+                            String response = (String) pack.getData().get("response");
+                            Panel.drawResponse(response);
+                            break;
+                        default:
+                            System.out.println("Unknown packet type: " + pack.getType());
+                    }
+
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
@@ -81,13 +101,13 @@ public class Client {
         }).start();
     }
 
-    public static void main(String[] args) {
-        try {
-            new Client();
-        } catch (IOException e) {
+    // public static void main(String[] args) {
+    // try {
+    // new Client();
+    // } catch (IOException e) {
 
-            e.printStackTrace();
-        }
-    }
+    // e.printStackTrace();
+    // }
+    // }
 
 }

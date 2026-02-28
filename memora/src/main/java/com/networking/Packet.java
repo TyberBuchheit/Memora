@@ -6,8 +6,6 @@ public class Packet {
     private String type;
     private HashMap<String, String> data;
 
-
-
     public String getType() {
         return type;
     }
