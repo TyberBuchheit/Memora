@@ -28,7 +28,7 @@ def receive ():
             handle_context(data)
         elif data.get("type") == "prompt":
             response = handle_prompt(data)
-            send(json.dumps({"type": "response", "response": response}))
+            send(json.dumps({"type": "response", "data": {"response": response}}))
 
 
 if(__name__ == "__main__"):
