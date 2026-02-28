@@ -170,6 +170,12 @@ def handle_prompt(data: dict):
     messages += history[-true_limit:]
     messages.append({"role": "user", "content": prompt})
     # print("Messages: ", messages) #!TESTING
+#     messages = []
+#     messages.append({"role": "user", "content": prompt})
+    messages = messages[-LIMIT:]
+    print("Messages being sent to model: ", messages)
+    response = get_response(messages)
+    return response
 
    
     response, model = get_response(messages)

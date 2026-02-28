@@ -2,54 +2,63 @@ package com.frontend;
 
 import java.awt.Color;
 import java.awt.Dimension;
-import java.awt.Graphics2D;
 
 import javax.swing.JTextArea;
 import java.awt.FontMetrics;
+import java.awt.Insets;
+import java.awt.Graphics;
+import java.awt.Graphics2D;
+import java.awt.RenderingHints;
 
 public class Bubble extends JTextArea {
-    static int statY = 200;
-    private int width, height, x = 1200, y;
-    private static final int maxWidth = 500;
+    static int statY = 200-100;
+    static int actY = 200;
+    private int width, height, x = 1100-350, y;
+    private static final int maxWidth = 200;
+
+    public static int scrollY = 0;
 
     public Bubble(String text) {
         super(text);
 
         setLineWrap(true);
-        setBackground(Color.GRAY);
+        setBackground(new Color(0,0,0,0));
+        setOpaque(false);
+        setMargin(new Insets(8,8,8,8));
+        setForeground(Color.WHITE);
         setText(text);
-        setFont(Panel.customFont.deriveFont(30f));
-        // setBounds(x, y=statY, 10, 10);
+        setFont(Panel.customFont.deriveFont(25f));
         setEditable(false);
         setWrapStyleWord(true);
-        y=statY;
+
+        y = statY;
+
         resizeToFit();
-        statY += height + 60;
+        statY += height;
 
     }
 
-    public void addStatY(int delta) {
-        statY += delta;
-        
+    public void update() {
+        // always use our stored x value; other components shouldn't be able to shift us
+        setLocation(x, y + Bubble.scrollY);
     }
 
     public void scroll(boolean up) {
-        if (up) {
-            y -= 5;
-        } else {
-            y += 5;
-        }
 
     }
 
     private void resizeToFit() {
+
         FontMetrics fm = getFontMetrics(getFont());
         String text = getText().isEmpty() ? " " : getText();
 
         int textWidth = fm.stringWidth(text);
 
-        width = Math.min(textWidth + 10, maxWidth);
+        Insets m = getMargin();
+        int hPad = m.left + m.right + 6;
+        width = Math.min(textWidth + hPad, maxWidth);
 
+        // keep x constant when sizing
         setBounds(x, y, width, Short.MAX_VALUE);
         height = getPreferredSize().height;
 
@@ -58,6 +67,36 @@ public class Bubble extends JTextArea {
         setPreferredSize(new Dimension(width, height));
 
         revalidate();
+    }
+
+    // protect the horizontal position – we'll always use the fixed x value
+    @Override
+    public void setLocation(int xxx, int yyy) {
+        super.setLocation(x, yyy);
+    }
+
+    @Override
+    public void setBounds(int xxx, int yyy, int w, int h) {
+        super.setBounds(x, yyy, w, h);
+    }
+
+
+
+    @Override
+    public void paintComponent(Graphics g) {
+        Graphics2D g2 = (Graphics2D) g.create();
+        try {
+            g2.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
+            g2.setColor(Color.DARK_GRAY);
+            g2.fillRoundRect(0, 0, getWidth(), getHeight(), 16, 16);
+        } finally {
+            g2.dispose();
+        }
+        // setBounds(getX()+5, getY(), getWidth(), getHeight());
+        super.paintComponent(g);
+        // setBounds(getX()-5, getY(), getWidth(), getHeight());
+
+
     }
 
 }
