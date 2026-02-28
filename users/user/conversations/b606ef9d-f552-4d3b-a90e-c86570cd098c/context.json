@@ -1,0 +1,18 @@
+[
+  {
+    "role": "user",
+    "content": "Can you explain neural networks like I'm 10?"
+  },
+  {
+    "role": "assistant",
+    "content": "Imagine your brain has billions of tiny switches. A neural network is a computer program that mimics this \u2014 it has layers of 'switches' that learn to recognize patterns by being shown lots of examples."
+  },
+  {
+    "role": "user",
+    "content": "What's the difference between a neural network and deep learning?"
+  },
+  {
+    "role": "assistant",
+    "content": "Deep learning is just a neural network with many layers (that's what 'deep' means). The extra layers let it learn more complex patterns, like recognizing faces or understanding speech."
+  }
+]
