@@ -29,7 +29,6 @@ def handle_prompt(data: dict):
         history = raw.get("conversation", [])
     except FileNotFoundError as e:
         print(f"Error loading conversation history: {e}")
-<<<<<<< HEAD
         history = []
 
     # Get memory summary from the similarity search + summarization endpoint
@@ -54,12 +53,10 @@ def handle_prompt(data: dict):
     messages += history[-LIMIT:]
     messages.append({"role": "user", "content": prompt})
 
-=======
     messages = []
     messages.append({"role": "user", "content": prompt})
     messages = messages[-LIMIT:]
     print("Messages being sent to model: ", messages)
->>>>>>> 90de1c3181e522e899d4f1b4bbbcbab387b81519
     response = get_response(messages)
     return response
 
