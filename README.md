@@ -1,1 +1,7 @@
 # Memora
+
+
+
+
+* Jackson Annotations
+* 
