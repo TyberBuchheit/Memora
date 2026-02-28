@@ -39,13 +39,13 @@ public class Client {
     }
 
     public void sendPrompt(String prompt) throws JsonProcessingException {
-        Packet p = new Packet("prompt", new HashMap<>() {
+        Packet p = new Packet("prompt", "1234", new HashMap<>() {
             {
                 put("conv_id", "1234");
                 put("prompt", prompt);
 
             }
-        });
+        } );
         send(mapper.writeValueAsString(p));
     }
 

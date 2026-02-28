@@ -17,8 +17,8 @@ def handle_context(data: dict):
 
 def handle_prompt(data: dict):
     print("Handling prompt: ", data)
-    data = data.get("data")
     conv_id = data.get("conv_id")
+    data = data.get("data")
     prompt = data.get("prompt")
     user = DEFAULT_USER # We're only doing one user for now, but it's as easy as adding a user field later on
 
@@ -26,11 +26,24 @@ def handle_prompt(data: dict):
     try:
         with open(context_path, "r", encoding="utf-8", errors="replace") as f:
             raw = json.load(f)
-        history = raw.get("conversation", [])
+        history = raw if isinstance(raw, list) else []
     except FileNotFoundError as e:
         print(f"Error loading conversation history: {e}")
-<<<<<<< HEAD
         history = []
+
+    # the stored conversation entries may come from the Java side, which uses
+    # the key "context" instead of "content".  normalize them so the chat
+    # client always receives objects with a "content" field.
+    def normalize(entry: dict) -> dict:
+        if "content" in entry:
+            return entry
+        if "context" in entry:
+            return {"role": entry.get("role"), "content": entry.get("context")}
+        # fall back to returning it unmodified; Groq may still complain if it's
+        # malformed, but at least we try.
+        return entry
+
+    history = [normalize(e) for e in history]
 
     # Get memory summary from the similarity search + summarization endpoint
     memory_summary = ""
@@ -54,14 +67,8 @@ def handle_prompt(data: dict):
     messages += history[-LIMIT:]
     messages.append({"role": "user", "content": prompt})
 
-=======
-    messages = []
-    messages.append({"role": "user", "content": prompt})
-    messages = messages[-LIMIT:]
-    print("Messages being sent to model: ", messages)
->>>>>>> 90de1c3181e522e899d4f1b4bbbcbab387b81519
     response = get_response(messages)
-    return response
+    return response, conv_id
 
     
     

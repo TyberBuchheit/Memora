@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> 90de1c3181e522e899d4f1b4bbbcbab387b81519
 import socket
 from threading import Thread
 from Modules.handle_input import handle_context, handle_prompt
@@ -30,8 +26,8 @@ def receive ():
         if data.get("type") == "context":
             handle_context(data)
         elif data.get("type") == "prompt":
-            response = handle_prompt(data)
-            send(json.dumps({"type": "response", "data": {"response": response}}))
+            response, conv_id = handle_prompt(data)
+            send(json.dumps({"type": "response", "conv_id": conv_id, "data": {"response": response}}))
 
 
 if(__name__ == "__main__"):
@@ -42,14 +38,4 @@ if(__name__ == "__main__"):
     start_reciever()
 
 
-<<<<<<< HEAD
-    while True:
-        message = input()
-        send(message)
 
-from Modules.groq_client import get_response
-
-from Modules.groq_client import get_response
-=======
-
->>>>>>> 90de1c3181e522e899d4f1b4bbbcbab387b81519

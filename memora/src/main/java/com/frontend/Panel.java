@@ -61,6 +61,15 @@ public class Panel extends JPanel implements ActionListener, MouseWheelListener 
     public Panel(Client client) {
         me = pan;
         try {
+
+            SimpleButton newChatButton = new SimpleButton(()->{
+                System.out.println("create a new chat");
+            });
+            newChatButton.setBounds(10, 10, 200, 50);
+            newChatButton.setText("New Chat");
+
+            addButton(newChatButton);
+
             setLayout(null);
             setBounds(0,0, (int) Main.screenSize.getWidth(), (int) Main.screenSize.getHeight());
             // setSize(Main.screenSize);

@@ -58,7 +58,6 @@ public class Bubble extends JTextArea {
         int hPad = m.left + m.right + 6;
         width = Math.min(textWidth + hPad, maxWidth);
 
-        // keep x constant when sizing
         setBounds(x, y, width, Short.MAX_VALUE);
         height = getPreferredSize().height;
 
@@ -67,17 +66,6 @@ public class Bubble extends JTextArea {
         setPreferredSize(new Dimension(width, height));
 
         revalidate();
-    }
-
-    // protect the horizontal position – we'll always use the fixed x value
-    @Override
-    public void setLocation(int xxx, int yyy) {
-        super.setLocation(x, yyy);
-    }
-
-    @Override
-    public void setBounds(int xxx, int yyy, int w, int h) {
-        super.setBounds(x, yyy, w, h);
     }
 
 

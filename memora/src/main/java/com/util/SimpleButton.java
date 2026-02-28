@@ -1,5 +1,6 @@
 package com.util;
 
+import java.awt.Font;
 import java.awt.Graphics2D;
 import java.awt.Rectangle;
 import java.awt.event.MouseAdapter;
@@ -11,6 +12,7 @@ public class SimpleButton extends MouseAdapter {
     private boolean hover;
     private Runnable target;
     private String text;
+    private Font f = new Font("Arial", Font.PLAIN, 25);
 
 
     public void setText(String text) {
@@ -27,7 +29,7 @@ public class SimpleButton extends MouseAdapter {
     }
 
     public void draw(Graphics2D g2) {
-
+        g2.setFont(f);
         if (hover) {
             g2.setColor(java.awt.Color.GRAY);
         } else {
