@@ -35,14 +35,7 @@ public class Client {
         send(mapper.writeValueAsString(myInfo));
 
         receive();
-        // Scanner scanner = new Scanner(System.in);
 
-        // String message = scanner.nextLine();
-        // if(message.equalsIgnoreCase("exit")) {
-        // break;
-        // }
-
-        // scanner.close();
     }
 
     public void sendPrompt(String prompt) throws JsonProcessingException {
@@ -75,10 +68,9 @@ public class Client {
 
             while (true) {
                 try {
-                    byte[] buffer = new byte[1024];
+                    byte[] buffer = new byte[8192*4];
                     int bytesRead = is.read(buffer);
                     if (bytesRead == -1) {
-                        // End of stream, server disconnected
                         break;
                     }
                     String message = new String(buffer, 0, bytesRead);
@@ -101,13 +93,5 @@ public class Client {
         }).start();
     }
 
-    // public static void main(String[] args) {
-    // try {
-    // new Client();
-    // } catch (IOException e) {
-
-    // e.printStackTrace();
-    // }
-    // }
 
 }

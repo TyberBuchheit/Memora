@@ -21,7 +21,7 @@ def send (message):
 
 def receive ():
     while True:
-        message = client.recv(1024).decode("utf-8")
+        message = client.recv(8192*4).decode("utf-8")
         print ("rec: ",message)
         data = json.loads(message)
         if data.get("type") == "context":

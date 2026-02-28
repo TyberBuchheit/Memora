@@ -15,15 +15,37 @@
 
 
     <dependencies>
-      
+
+
    
+<dependency>
+    <groupId>org.commonmark</groupId>
+    <artifactId>commonmark-ext-gfm-tables</artifactId>
+    <version>0.27.1</version> <!-- match your core commonmark version -->
+</dependency>
+
       <dependency>
     <groupId>com.fasterxml.jackson.core</groupId>
     <artifactId>jackson-databind</artifactId>
     <version>2.15.2</version> <!-- Use the latest version -->
+</dependency>
+
+<dependency>
+    <groupId>org.commonmark</groupId>
+    <artifactId>commonmark</artifactId>
+    <version>0.27.1</version>
+    <scope>compile</scope>
+</dependency>
+
+        <dependency>
+            <groupId>org.commonmark</groupId>
+            <artifactId>commonmark-ext-gfm-tables</artifactId>
+            <version>0.27.1</version>
+        </dependency>
 
   
-    </dependency>
+
+
  </dependencies>
 
 </project>

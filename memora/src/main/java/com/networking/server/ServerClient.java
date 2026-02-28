@@ -20,8 +20,8 @@ public class ServerClient {
         is = new BufferedInputStream(s.getInputStream());
         os = new BufferedOutputStream(s.getOutputStream());
 
-        byte[] buffer = new byte[1024];
-        int bytesRead = is.read(buffer);
+        byte[] buffer = new byte[8192*4];
+        is.read(buffer);
 
         String jsonString = new String(buffer, "UTF-8").trim();
         System.out.println("Received JSON: " + jsonString);
@@ -63,7 +63,7 @@ public class ServerClient {
 
             while (true) {
                 try {
-                    byte[] buffer = new byte[1024];
+                    byte[] buffer = new byte[8192*4];
                     int bytesRead = is.read(buffer);
                     if (bytesRead == -1) {
                         // End of stream, client disconnected
