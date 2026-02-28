@@ -68,6 +68,10 @@ def handle_prompt(data: dict):
     messages += history[-LIMIT:]
     messages.append({"role": "user", "content": prompt})
 
+    messages = []
+    messages.append({"role": "user", "content": prompt})
+    messages = messages[-LIMIT:]
+    print("Messages being sent to model: ", messages)
     response = get_response(messages)
     return response, conv_id
 
