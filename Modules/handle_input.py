@@ -6,7 +6,10 @@ def handle_context(data: dict):
     conv_id = data.get("conv_id")
     context = data.get("context")
 
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 # Will look to see if the conv_id exists as a qdrant collection, if not it will create one and embed the prompt, and generate and send a conversation title.
 # If it does exist, it will embed the prompt to the specified conversation collection, and then generate a streamed response, sending the response back to the client as it is generated using the chunk data format
 # ...lowkey might be good to have a folder of json files with the conv_id as the filename to store conversation history for retrieval for the sake of sending it to the model as context
@@ -22,11 +25,14 @@ def handle_prompt(data: dict):
     except Exception as e:
         print(f"Error loading conversation history: {e}")
         messages = []
+<<<<<<< Updated upstream
     messages.append({"role": "user", "content": prompt})
     messages = messages[-LIMIT:]
     response = get_response(messages)
     return response
 
+=======
+>>>>>>> Stashed changes
     
     
 

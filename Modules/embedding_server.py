@@ -26,5 +26,8 @@ async def embed(request: Request):
 
 @app.post("/similarity_search")
 async def similarity_search(request: Request):
+<<<<<<< Updated upstream
     pass
+=======
+>>>>>>> Stashed changes
     
