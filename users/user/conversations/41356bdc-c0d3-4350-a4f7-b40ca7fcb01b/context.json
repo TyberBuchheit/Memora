@@ -1,0 +1,18 @@
+[
+  {
+    "role": "user",
+    "content": "How do I find a memory leak in a Java application?"
+  },
+  {
+    "role": "assistant",
+    "content": "Use a profiler like VisualVM or JProfiler to monitor heap usage over time. Look for objects that keep accumulating without being garbage collected, often caused by unclosed resources or stale references in collections."
+  },
+  {
+    "role": "user",
+    "content": "What are common causes?"
+  },
+  {
+    "role": "assistant",
+    "content": "Common causes include: static collections holding references, listeners not being removed, unclosed streams/connections, and ThreadLocal variables not being cleaned up."
+  }
+]

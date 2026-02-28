@@ -1,7 +1,6 @@
 fastapi
 python-dotenv
 uvicorn
-# sentence-transformers
 qdrant-client
 groq
 cohere

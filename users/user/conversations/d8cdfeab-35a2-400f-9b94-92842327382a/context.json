@@ -1,0 +1,26 @@
+[
+  {
+    "role": "user",
+    "content": "I want to learn guitar. Where do I start?"
+  },
+  {
+    "role": "assistant",
+    "content": "Start with learning a few basic chords: G, C, D, and Em. Practice switching between them slowly, and aim for 15\u201320 minutes of practice daily."
+  },
+  {
+    "role": "user",
+    "content": "Should I learn acoustic or electric first?"
+  },
+  {
+    "role": "assistant",
+    "content": "Acoustic is generally recommended for beginners since it builds finger strength and doesn't require extra gear. That said, if you're drawn to a specific genre, go with whichever keeps you motivated."
+  },
+  {
+    "role": "user",
+    "content": "What are some good beginner songs?"
+  },
+  {
+    "role": "assistant",
+    "content": "Some classics: 'Knockin' on Heaven's Door' by Bob Dylan, 'Horse With No Name' by America, and 'Wish You Were Here' by Pink Floyd. All use simple chord progressions."
+  }
+]
