@@ -4,8 +4,6 @@ import java.io.IOException;
 import java.net.ServerSocket;
 import java.util.ArrayList;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.networking.ClientInfo;
 
 public class ServerMain {
 
@@ -19,7 +17,7 @@ public class ServerMain {
         try {
             serverSocket = new ServerSocket(PORT);
             System.out.println("Server started on port " + PORT);
-            ClientInfo clientInfo = new ClientInfo("Server", 0);
+           // ClientInfo clientInfo = new ClientInfo("Server", 0);
           //  System.out.println(new ObjectMapper().writeValueAsString(clientInfo));
 
             while (true) {

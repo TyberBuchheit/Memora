@@ -5,9 +5,6 @@ import java.awt.Dimension;
 
 import javax.swing.BorderFactory;
 import javax.swing.JEditorPane;
-import javax.swing.JScrollPane;
-import javax.swing.JTextArea;
-import java.awt.FontMetrics;
 
 import org.commonmark.parser.Parser;
 import org.commonmark.renderer.html.HtmlRenderer;
@@ -19,17 +16,15 @@ import java.util.List;
 public class Response extends JEditorPane {
 
     public void createMarkdownComponent(String markdown) {
-        // Convert Markdown → HTML (enable GFM tables)
         List<Extension> extensions = Arrays.asList(TablesExtension.create());
         Parser parser = Parser.builder().extensions(extensions).build();
         HtmlRenderer renderer = HtmlRenderer.builder().extensions(extensions).build();
         String html = renderer.render(parser.parse(markdown));
 
-        // Basic HTML wrapper (inherits background from Swing)
         String font = "Verdana";
         int size = 18;
         int maxWidth = 800;
-        String color = "#ffffff"; // or "red", "rgb(0,128,0)", etc.
+        String color = "#ffffff";
 
         String styledHtml = """
                 <html>
@@ -51,7 +46,6 @@ public class Response extends JEditorPane {
         setText(styledHtml);
         setEditable(false);
 
-        // enforce max width when determining preferred size
         setSize(maxWidth, Short.MAX_VALUE);
         Dimension d = getPreferredSize();
         if (d.width > maxWidth) {
@@ -65,7 +59,7 @@ public class Response extends JEditorPane {
 
     }
 
-    private int width, height, x = 1, y;
+    private int x = 1, y;
 
     public Response(String response) {
         super();
@@ -81,42 +75,10 @@ public class Response extends JEditorPane {
 
     }
 
-    // private void resizeToFit() {
-    // x = 400;
-    // y = Bubble.statY;
-    // int maxWidth = 700;
-    // FontMetrics fm = getFontMetrics(getFont());
-    // String text = getText().isEmpty() ? " " : getText();
-
-    // int textWidth = fm.stringWidth(text);
-
-    // width = Math.min(textWidth + 10, maxWidth);
-
-    // setBounds(x, y, width, Short.MAX_VALUE);
-    // height = getPreferredSize().height;
-
-    // setBounds(x, y, width, height);
-
-    // setPreferredSize(new Dimension(width, height));
-
-    // revalidate();
-    // Bubble.statY += height;
-
-    // }
-
     public void update() {
 
         setLocation(x, y + Bubble.scrollY);
-        // if (y + height > 700) {
 
-        // setBounds(x, y+ Bubble.scrollY, getWidth(), height - ((y + height) - 700));
-        // revalidate();
-
-        // } else {
-        // setBounds(x, y+ Bubble.scrollY, getWidth(), height);
-        // revalidate();
-
-        // }
     }
 
 }

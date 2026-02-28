@@ -27,6 +27,7 @@ def handle_prompt(data: dict):
         with open(context_path, "r", encoding="utf-8", errors="replace") as f:
             raw = json.load(f)
         history = raw if isinstance(raw, list) else []
+        print(history)
     except FileNotFoundError as e:
         print(f"Error loading conversation history: {e}")
         history = []

@@ -5,7 +5,6 @@ import java.io.BufferedOutputStream;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.io.InputStream;
 import java.net.Socket;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -40,6 +39,11 @@ public class ServerClient {
         System.out.println("Received JSON: " + jsonString);
         clientInfo = mapper.readValue(jsonString, ClientInfo.class);
 
+        String p = "memora\\Users\\user\\Conversations\\" + clientInfo.getID();
+        Path path = Paths.get(p);
+        if (java.nio.file.Files.exists(path)) {
+            loadContext(p);
+        }
         receive();
 
     }
@@ -63,6 +67,29 @@ public class ServerClient {
             context = mapper.readValue(jsonString, new TypeReference<ArrayList<HashMap<String, String>>>() {
             });
         scanner.close();
+        Packet p1 = new Packet("context", clientInfo.getID(), new HashMap<>() {
+            {
+                put("context", jsonString);
+            }
+        });
+        sendToClient(mapper.writeValueAsString(p1));
+    }
+
+    public void sendToClient(String message) {
+        try {
+            for (ServerClient sc : ServerMain.clients) {
+
+                if (sc.clientInfo.getClientType() == 1) {
+                    sc.sendMessage(message);
+                } else {
+
+                }
+
+            }
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
     public void appendToFile(String message, String UUID, boolean context) throws IOException {

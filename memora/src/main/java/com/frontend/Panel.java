@@ -8,18 +8,14 @@ import java.awt.geom.AffineTransform;
 import java.awt.image.BufferedImage;
 import java.util.ArrayList;
 import java.awt.Color;
-import java.awt.Dimension;
 import java.awt.Font;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
-import javax.swing.ImageIcon;
 
 import javax.imageio.ImageIO;
-import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextArea;
 import javax.swing.Timer;
-import java.awt.FontMetrics;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.networking.client.Client;
@@ -28,7 +24,7 @@ import com.util.SimpleButton;
 public class Panel extends JPanel implements ActionListener, MouseWheelListener {
 
     private ArrayList<SimpleButton> buttons = new ArrayList<>();
-    private ArrayList<Bubble> bubbles = new ArrayList<>();
+    public static ArrayList<Bubble> bubbles = new ArrayList<>();
     private static ArrayList<Response> responses = new ArrayList<>();
     private JTextArea promptArea = new JTextArea();
     private AffineTransform spec = new AffineTransform();
@@ -42,10 +38,10 @@ public class Panel extends JPanel implements ActionListener, MouseWheelListener 
 
     }
 
-    public void addBubble(Bubble bubble) {
-        bubbles.add(bubble);
-        add(bubble);
-    }
+    // public void addBubble(Bubble bubble) {
+    //     bubbles.add(bubble);
+    //     add(bubble);
+    // }
 
     private double scaleX, scaleY;
     private double iscaleX, iscaleY;
@@ -56,7 +52,7 @@ public class Panel extends JPanel implements ActionListener, MouseWheelListener 
     private static JPanel me;
 
 
-    private JPanel pan = new JPanel();
+    public static JPanel pan = new JPanel();
 
     public Panel(Client client) {
         me = pan;
